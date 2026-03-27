@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Well-Being Check-In</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main id="app" class="container">
+      <!-- Header -->
+      <h1 class="title">Well-Being Check-In</h1>
+
+      <!-- Status indicator (hidden until call starts) -->
+      <div id="status-area" class="status-area hidden">
+        <div id="status-indicator" class="status-indicator">
+          <span id="status-icon" class="status-icon"></span>
+          <span id="status-text" class="status-text">Connecting…</span>
+        </div>
+        <!-- Live transcript snippet -->
+        <p id="transcript" class="transcript" aria-live="polite"></p>
+      </div>
+
+      <!-- Error banner -->
+      <div id="error-banner" class="error-banner hidden" role="alert">
+        <p id="error-message"></p>
+        <button id="error-dismiss" class="btn btn-small" aria-label="Dismiss error">✕</button>
+      </div>
+
+      <!-- Action buttons -->
+      <div class="actions">
+        <button id="btn-start" class="btn btn-primary">
+          Start Check-In
+        </button>
+        <button id="btn-end" class="btn btn-danger hidden">
+          End Call
+        </button>
+      </div>
+
+      <p class="helper-text">
+        Press the button and speak naturally — the assistant will guide you.
+      </p>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
