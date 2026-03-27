@@ -1,0 +1,6375 @@
+[
+  {
+    "type": "open",
+    "Q": "What is your birth year?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your birth month?",
+    "A": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your biological sex?",
+    "A": [
+      "Male",
+      "Female"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you identify as Hispanic or Latino?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Would you say you are Mexican American, Puerto Rican, Cuban American or something else?",
+    "A": [
+      "Mexican American/Chicano",
+      "Puerto",
+      "Rican",
+      "Cuban",
+      "American",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What race do you consider yourself to be?",
+    "A": [
+      "White/Caucasian",
+      "Black/African American",
+      "American",
+      "Indian",
+      "Alaska",
+      "Native",
+      "Asian",
+      "Native",
+      "Hawaiian",
+      "Pacific",
+      "Islander",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What race, if any, do you identify with most closely?",
+    "A": [
+      "White/Caucasian",
+      "Black/African American",
+      "American",
+      "Indian",
+      "Alaska",
+      "Native",
+      "Asian",
+      "Native",
+      "Hawaiian",
+      "Pacific",
+      "Islander",
+      "Can't Choose; All Same",
+      "Other",
+      "Race"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is the highest grade of school or year of college you completed?",
+    "A": [
+      "1st grade",
+      "2nd grade",
+      "3rd grade",
+      "4th grade",
+      "5th grade",
+      "6th grade",
+      "7th grade",
+      "8th grad",
+      "9th grade",
+      "10th grade",
+      "11th grade",
+      "12th grade",
+      "1 year college",
+      "2 years college",
+      "3 years college",
+      "4 or more years college",
+      "Post college (17+ years)",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Did you get a high school diploma or pass a high school equivalency test?",
+    "A": [
+      "Yes, diploma",
+      "Yes, Equivalency (GED)",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Did you get a college degree?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is the highest degree you have earned?",
+    "A": [
+      "Less",
+      "than",
+      "bachelors",
+      "Bachelors",
+      "Masters/MBA",
+      "Law",
+      "PhD",
+      "MD",
+      "Other",
+      "Living",
+      "Situation"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "How long have you lived at your current home?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Where do you currently live?",
+    "A": [
+      "Single-family home",
+      "Mobile",
+      "home",
+      "Apartment",
+      "or",
+      "condominium",
+      "Residential care or assisted-living facility",
+      "Skilled",
+      "nursing",
+      "facility",
+      "Other"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does anyone live with you?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many people live with you?",
+    "A": [
+      "One",
+      "Two",
+      "Three",
+      "Four",
+      "Five",
+      "More than 5",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Who lives with you? (select all that apply)",
+    "A": [
+      "Spouse/partner",
+      "Child",
+      "Child-in-law",
+      "Grandchild",
+      "Parent",
+      "Other",
+      "relative",
+      "Caregiver",
+      "Friend",
+      "Someone",
+      "else"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you have social contact with friends?",
+    "A": [
+      "Yes",
+      "No",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How do you stay in contact/connect with your friends? (Select all that apply)",
+    "A": [
+      "In-person",
+      "Phone",
+      "Call",
+      "Text Message (SMS)",
+      "Email",
+      "Video Chat (e.g., FaceTime, Zoom, Skype)",
+      "Messaging Apps (e.g., WhatsApp, Facebook Messenger)",
+      "Voice Messages (via messaging apps)",
+      "Smart Speaker/Display Calling (e.g., Google Nest Hub, Alexa)",
+      "Handwritten Letters or Postcards (snail mail)",
+      "Virtual Game Nights or Online Co-op Games",
+      "Synchronized Media Viewing (e.g., Watch Parties)"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How often do you have contact with your friends?",
+    "A": [
+      "Multiple",
+      "times",
+      "a",
+      "day",
+      "Daily",
+      "Weekly",
+      "Every",
+      "few",
+      "weeks",
+      "Monthly",
+      "A",
+      "few",
+      "times",
+      "a",
+      "year",
+      "Yearly",
+      "More",
+      "than",
+      "a",
+      "year"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you have social contact with family?",
+    "A": [
+      "Yes",
+      "No",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How do you stay in contact/connect with your family? (Select all that apply)",
+    "A": [
+      "In-person",
+      "Phone",
+      "Call",
+      "Text Message (SMS)",
+      "Email",
+      "Video Chat (e.g., FaceTime, Zoom, Skype)",
+      "Messaging Apps (e.g., WhatsApp, Facebook Messenger)",
+      "Voice Messages (via messaging apps)",
+      "Smart Speaker/Display Calling (e.g., Google Nest Hub, Alexa)",
+      "Handwritten Letters or Postcards (snail mail)",
+      "Virtual Game Nights or Online Co-op Games",
+      "Synchronized Media Viewing (e.g., Watch Parties)"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How often do you have contact with your family?",
+    "A": [
+      "Multiple",
+      "times",
+      "a",
+      "day",
+      "Daily",
+      "Weekly",
+      "Every",
+      "few",
+      "weeks",
+      "Monthly",
+      "A",
+      "few",
+      "times",
+      "a",
+      "year",
+      "Yearly",
+      "More",
+      "than",
+      "a",
+      "year"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "When did you start to live alone? Please provide the Year and Month below.",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Why do you live alone?",
+    "A": [
+      "By",
+      "choice",
+      "Widowhood",
+      "Divorce/separation",
+      "Moving for work/education",
+      "By",
+      "chance",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What aspects do you like about living alone? (Please check all that apply)",
+    "A": [
+      "Freedom",
+      "Independence",
+      "Authenticity",
+      "Self-discovery",
+      "Privacy",
+      "Reduced",
+      "conflict",
+      "Ability",
+      "to",
+      "pursue",
+      "personal",
+      "interests",
+      "without",
+      "interruption",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What are the challenges or drawbacks of living alone? (Please check all that apply)",
+    "A": [
+      "Feeling",
+      "lonely",
+      "Feeling",
+      "isolated",
+      "Financial",
+      "burden",
+      "Managing",
+      "household",
+      "tasks",
+      "Safety",
+      "concerns",
+      "Lack",
+      "of",
+      "immediate",
+      "support",
+      "in",
+      "emergencies",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How do you navigate the challenges of living alone? (Please check all that apply)",
+    "A": [
+      "Coping",
+      "mechanisms",
+      "Routines",
+      "Social",
+      "activities",
+      "Support",
+      "networks",
+      "Fostering",
+      "resilience",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Overall, how satisfied are you with your current living situation?",
+    "A": [
+      "Very",
+      "dissatisfied",
+      "Somewhat",
+      "dissatisfied",
+      "Neither",
+      "dissatisfied",
+      "nor",
+      "satisfied",
+      "Somewhat",
+      "satisfied",
+      "Very",
+      "satisfied"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you live with a pet?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What type of pet(s)?",
+    "A": [
+      "Dog",
+      "Cat",
+      "Bird",
+      "Fish",
+      "Reptile",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many dogs?",
+    "A": [
+      "1",
+      "2",
+      "3",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many cats?",
+    "A": [
+      "1",
+      "2",
+      "3",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many birds?",
+    "A": [
+      "1",
+      "2",
+      "3",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many fish?",
+    "A": [
+      "1",
+      "2",
+      "3",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many reptiles?",
+    "A": [
+      "1",
+      "2",
+      "3",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many other pets?",
+    "A": [
+      "1",
+      "2",
+      "3",
+      "Other",
+      "Living",
+      "Situation"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Is there anything else about your living situation that you would like to share with us?",
+    "A": [
+      "What resources do you currently use to help meet your needs (e.g., home aid, grocery/meal delivery,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "housing/utilities, healthcare/support, transportation, etc.)?",
+    "A": [
+      "How do you think technology could help meet those needs (e.g., mobile house security, online grocery/meal delivery,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "smart home devices, smartphone video, health monitoring apps, etc.)?",
+    "A": [
+      "The",
+      "SoLAr",
+      "Study",
+      "Main",
+      "Survey"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "cognitive difficulties?",
+    "A": [
+      "Would",
+      "you",
+      "ask",
+      "a",
+      "doctor",
+      "about"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "these difficulties?",
+    "A": [
+      "In the last two years, has your"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "cognition or memory declined?",
+    "A": [
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "learn",
+      "new",
+      "telephone numbers.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "find",
+      "personal",
+      "possessions (keys, telephone,",
+      "utensils, etc.).",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "describe",
+      "the",
+      "plots of films.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "doctor's appointments.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "follow",
+      "the",
+      "plot",
+      "of a book.",
+      "I'm",
+      "worse",
+      "at",
+      "recalling",
+      "the",
+      "details",
+      "of a recent family event.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "the",
+      "result of a recent sporting event.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "sums of money (payments or",
+      "debts).",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "the",
+      "details of a conversation.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "things",
+      "without",
+      "using",
+      "strategies",
+      "(lists, diary, etc.).",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "the",
+      "details of recent news.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "famous people's names.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "the",
+      "names",
+      "of",
+      "people",
+      "I've",
+      "met",
+      "recently.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "street and city names.",
+      "I'm",
+      "worse",
+      "at",
+      "finding",
+      "the",
+      "word",
+      "I",
+      "want to use in a conversation.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "understand",
+      "things",
+      "the",
+      "first",
+      "time",
+      "someone",
+      "says them.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "remember",
+      "the",
+      "names",
+      "of",
+      "places",
+      "I've",
+      "visited",
+      "recently.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "concentrate",
+      "on",
+      "what I am doing.",
+      "I'm",
+      "worse",
+      "at",
+      "planning",
+      "things",
+      "that",
+      "aren't",
+      "part",
+      "of",
+      "my",
+      "daily",
+      "routine",
+      "(travel, excursions, etc.).",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "use",
+      "electronic",
+      "devices.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "start",
+      "new",
+      "or",
+      "different",
+      "things",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "start",
+      "conversations.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "do",
+      "mental",
+      "arithmetic.",
+      "I",
+      "find",
+      "it",
+      "harder",
+      "to",
+      "do",
+      "more",
+      "than",
+      "one",
+      "thing",
+      "at",
+      "once",
+      "without",
+      "getting agitated."
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "interested in hobbies/activities?",
+    "A": [
+      "Do",
+      "you",
+      "repeat",
+      "the",
+      "same",
+      "things",
+      "over and over (questions,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "stories, or statements)?",
+    "A": [
+      "Do",
+      "you",
+      "have",
+      "trouble",
+      "learning",
+      "how to use a tool, appliance, or",
+      "gadget (e.g., VCR, computer,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "microwave, remote control)?",
+    "A": [
+      "Do",
+      "you",
+      "forget",
+      "the",
+      "correct",
+      "month"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "or year?",
+    "A": [
+      "Do",
+      "you",
+      "have",
+      "trouble",
+      "handling",
+      "complicated",
+      "financial",
+      "affairs",
+      "(e.g., balancing checkbook,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "income taxes, paying bills)?",
+    "A": [
+      "Do",
+      "you",
+      "have",
+      "trouble"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "remembering appointments?",
+    "A": [
+      "Do",
+      "you",
+      "have",
+      "daily",
+      "problems",
+      "with"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "thinking and/or memory?",
+    "A": [
+      "Lifestyle",
+      "Activities",
+      "1. Height and weight"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What is your height?",
+    "A": []
+  },
+  {
+    "type": "open",
+    "Q": "What is your weight?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "sweat)?",
+    "A": [
+      "On those days that you engage in moderate to vigorous physical activity, how many minutes, on average, do you"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "exercise?",
+    "A": [
+      "Total minutes of physical activity per week:",
+      "(minutes)",
+      "During the past month, how many times per week did you do physical activities or exercises to strengthen your"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "muscles?",
+    "A": [
+      "Lifestyle",
+      "Activities"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "handcrafts?",
+    "A": [
+      "Never",
+      "Seldom (1-2 Days)",
+      "Sometimes (3-4 Days)",
+      "Often (5-7 Days)"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What were these activities?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "On average, how many hours per day did you engage in these sitting activities?",
+    "A": [
+      "Less than 1 hour",
+      "1 but less than 2 hours",
+      "2-4 hours",
+      "More than 4 hours"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "Over the past 7 days, how often did you take a walk outside your home or yard for any reason? For example, for fun",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "or exercise, walking to work, walking the dog, etc?",
+    "A": [
+      "Never",
+      "Seldom (1-2 Days)",
+      "Sometimes (3-4 Days)",
+      "Often (5-7 Days)"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "On average, how many hours per day did you spend walking?",
+    "A": [
+      "Less than 1 hour",
+      "1 but less than 2 hours",
+      "2-4 hours",
+      "More than 4 hours",
+      "Over the past 7 days, how often did you engage in light sport or recreational activities such as bowling, golf with a"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "cart, shuffleboard, fishing from a boat or pier, or other similar activities?",
+    "A": [
+      "Never",
+      "Seldom (1-2 Days)",
+      "Sometimes (3-4 Days)",
+      "Often (5-7 Days)"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What were these activities?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "On average, how many hours per day did you engage in these light sports or recreational activities?",
+    "A": [
+      "Less than 1 hour",
+      "1 but less than 2 hours",
+      "2-4 hours",
+      "More than 4 hours",
+      "Over the past 7 days, how often did you engage in moderate sport and recreational activities such as doubles tennis,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "ballroom dancing, hunting, ice skating, golf without a cart, softball, or other similar activities?",
+    "A": [
+      "Never",
+      "Seldom (1-2 Days)",
+      "Sometimes (3-4 Days)",
+      "Often (5-7 Days)"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What were these activities?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "On average, how many hours per day did you engage in moderate sport and recreational activities?",
+    "A": [
+      "Less than 1 hour",
+      "1 but less than 2 hours",
+      "2-4 hours",
+      "More than 4 hours",
+      "Over the past 7 days, how often did you engage in strenuous sport and recreational activities such as jogging,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "swimming, cycling, singles tennis, aerobic dance, skiing (downhill or cross-country) or other similar activities?",
+    "A": [
+      "Never",
+      "Seldom (1-2 Days)",
+      "Sometimes (3-4 Days)",
+      "Often (5-7 Days)"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What were these activities?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "On average, how many hours per day did you engage in these strenuous sports and recreational activities?",
+    "A": [
+      "Less than 1 hour",
+      "1 but less than 2 hours",
+      "2-4 hours",
+      "More than 4 hours",
+      "Over the past 7 days, how often did you do any exercises specifically to increase muscle strength and endurance,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "such as lifting weights or pushups, etc?",
+    "A": [
+      "Never",
+      "Seldom (1-2 Days)",
+      "Sometimes (3-4 Days)",
+      "Often (5-7 Days)"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What were these activities?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "On average, how many hours per day did you engage in exercise to increase muscle strength and endurance?",
+    "A": [
+      "Less than 1 hour",
+      "1 but less than 2 hours",
+      "2-4 hours",
+      "More than 4 hours"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "During the past 7 days, have you done any light housework, such as dusting or washing dishes?",
+    "A": [
+      "Yes",
+      "No",
+      "During the past 7 days, have you done any heavy housework or chores, such as vacuuming, scrubbing floors,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "washing windows, or carrying wood?",
+    "A": [
+      "Yes",
+      "No",
+      "During the past 7 days, did you engage in any of the following activities as asked below:",
+      "Home repairs like painting, wallpapering, electrical work, etc.",
+      "Yes",
+      "No",
+      "Lawn work or yard care, including snow or leaf removal, wood chopping, etc.",
+      "Yes",
+      "No",
+      "Outdoor Gardening.",
+      "Yes",
+      "No",
+      "Caring for another person, such as children, a dependent spouse, or another adult.",
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "During the past 7 days, did you work for pay or as a volunteer?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many hours per week did you work for pay and/or as a volunteer?",
+    "A": [
+      "Which of the following categories best describes the amount of physical activity required on your job and/or"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "volunteer work?",
+    "A": [
+      "Mainly sitting with slight arm movements. (Examples: office worker, watchmaker, seated assembly line",
+      "worker, bus driver, etc.)",
+      "Sitting or standing with some walking. (Examples: cashier, general office worker, light tool and machinery",
+      "worker.)",
+      "The",
+      "SoLAr",
+      "Study",
+      "Main",
+      "Survey",
+      "Lifestyle",
+      "Activities"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "On how many of the last 7 days did you work?",
+    "A": [
+      "0 days 1 day 2 days 3 days 4 days 5 days 6 days 7 days",
+      "Prefer",
+      "not",
+      "to",
+      "answer",
+      "Over the last 7 days, what time did you usually get into bed for the purpose of sleep on the night before a typical"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "work day?",
+    "A": [
+      "(Options are written in 24 hour time format, with hh:mm being time passed since midnight of the day in question)"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the last 7 days, what time did you usually get out of bed on work days?",
+    "A": [
+      "(Options are written in 24 hour time format, with hh:mm being time passed since midnight of the day in question)"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the last 7 days, what time did you usually start work?",
+    "A": [
+      "(Options are written in 24 hour time format, with hh:mm being time passed since midnight of the day in question)"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "Over the last 7 days, what time did you usually leave work? If working from home, what time did you usually stop",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "working?",
+    "A": [
+      "(Options are written in 24 hour time format, with hh:mm being time passed since midnight of the day in question)",
+      "The next two questions are asking about the percentage (%) of time spent at your desk and away from your desk.",
+      "Please ensure that the total is equal to 100"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "On your workdays over the last 7 days, what percentage of your work hours was spent at your desk?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "On your workdays over the last 7 days, what percentage of your work hours was spent away from your desk?",
+    "A": [
+      "Total Percentage (%) of time spent at and away from your desk",
+      "The next three questions are asking about time spent at work AND at your desk, and the percentage (%) of time",
+      "spent sitting, standing, and moving.",
+      "Please ensure that the total % is equal to 100",
+      "On your workdays over the last 7 days, when you were at work AND at your desk, how much time did you spend:"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "% Sitting? (On a chair or on ball)",
+    "A": []
+  },
+  {
+    "type": "open",
+    "Q": "% Standing?    (includes still or fidgeting)",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "% Moving? (e.g. pacing about, treadmill desk, pedal desk)",
+    "A": [
+      "TOTAL % (Sitting + Standing + Moving)",
+      "(Calculated % must total %100)",
+      "The next few questions refer specifically to your time spent sitting or reclining during NON-WORK HOURS on WORK",
+      "DAYS (i.e., before and after work) and on NON-WORK DAYS in the last 7 days.",
+      "For each of the activities only count the time where this was your main activity. For example, if you are watching TV",
+      "and sitting for a meal, count it as TV time or a meal but not as both.",
+      "In the past 7 days, please estimate the average time per day that you spent sitting to travel to or from places.",
+      "your work, such as being a taxi driver, this should have been included in the question about sitting for work so do not",
+      "report it here.",
+      "Sitting for Transportation during NON-WORK HOURS on WORK DAYS:",
+      "transportation during non-work hours on workdays.",
+      "(Avg. time per day)",
+      "Sitting for Transportation during  NON-WORK HOURS on NON-WORK DAYS:",
+      "transportation during non-work hours on NON-work days.",
+      "(Avg. time per day)",
+      "In the past 7 days, please estimate the average time per day that you spent sitting while watching TV or",
+      "videos/DVDs.",
+      "would not include time when the television is on and you are preparing a meal.",
+      "Sitting while watching TV or videos/DVDs during  NON-WORK HOURS on WORK DAYS:",
+      "while sitting during Non-work hours on work days.",
+      "(Avg. time per day)",
+      "Sitting while watching TV or videos/DVDs during NON-WORK HOURS on NON-WORK DAYS:",
+      "videos/DVDs per day while sitting during Non-work hours on NON-work days.",
+      "(Avg. time per day)",
+      "In the past 7 days, please estimate the average time per day that you spent sitting while using the computer. For",
+      "example, this includes time spent playing any Playstation, Nintendo, X-Box, computer or handheld console games,",
+      "and time spent on internet activities.",
+      "sitting at work.",
+      "Sitting while using the computer during  NON-WORK HOURS on WORK DAYS:",
+      "computer per day during Non-work hours on work days.",
+      "(Avg. time per day)",
+      "Sitting while using the computer during NON-WORK HOURS on NON-WORK DAYS:",
+      "day during Non-work hours on workdays.",
+      "(Avg. time per day)",
+      "We",
+      "are",
+      "interested",
+      "in",
+      "any",
+      "other",
+      "sitting",
+      "or",
+      "lying",
+      "down",
+      "that",
+      "you",
+      "may",
+      "have",
+      "done",
+      "during",
+      "your",
+      "waking",
+      "hours",
+      "in",
+      "the",
+      "last",
+      "week that you have not already told us about. For example, this could include time spent sitting for reading, hobbies,",
+      "socializing with friends or family including time on the telephone, eating meals, or listening to music.",
+      "does NOT include sitting time you have mentioned in the previous answers, such as sitting for work, transport,",
+      "television viewing, or computer use.",
+      "Sitting for other purposes during NON-WORK HOURS on WORK DAYS:",
+      "purposes (not counted already in previous questions) during Non-work hours on workdays.",
+      "(Avg. time per day)",
+      "Sitting for other purposes during NON-WORK HOURS on NON-WORK DAYS:",
+      "other purposes (not counted already in previous questions) during Non-work hours on workdays.",
+      "(Avg. time per day)",
+      "Lifestyle",
+      "Activities"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Chess, Checkers, Backgammon?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in",
+      "Crossword puzzles, Jigsaw"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "puzzles, Sudoku?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "playing cards or Board Games?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "socializing with friends?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in",
+      "attending",
+      "a",
+      "club",
+      "or",
+      "group"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "activity outside the home?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "volunteering?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in",
+      "painting, drawing or other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "arts/crafts?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "singing or playing instrument?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in",
+      "watching",
+      "TV",
+      "or",
+      "listening",
+      "to"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "music?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in",
+      "reading a newspaper, book or"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "magazine?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in",
+      "attending the theatre, concert,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "or symphony?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in",
+      "going",
+      "to",
+      "a",
+      "museum",
+      "or"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "exhibition?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in",
+      "attending a conference, lecture,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "or course?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "attending a religious service?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in",
+      "writing a letter, poem, journal or"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "diary entry?",
+    "A": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "participate",
+      "in"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "exercise (any type)?",
+    "A": [
+      "Lifestyle",
+      "Activities"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "During the past month, when have you usually gone to bed? (24-hour time scale) ______ ______",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "During the past month, how long (in minutes) has it usually taken you to fall asleep each night?",
+    "A": [
+      "(minutes)"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "During the past month, when have you usually gotten up in the morning? (24-hour time scale) ______ ______",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "During the past month, how many hours of actual sleep did you get at night? (This may be different than the number",
+    "A": [
+      "of hours you spent in bed.)",
+      "(hours)",
+      "For each of the remaining questions, check the one best response. Please answer all",
+      "questions.",
+      "During the past month, how often have you had trouble sleep because you...",
+      "Not",
+      "during",
+      "the",
+      "past",
+      "month",
+      "Less",
+      "than",
+      "once",
+      "a",
+      "week",
+      "Once",
+      "or",
+      "twice",
+      "a",
+      "week",
+      "Three",
+      "or",
+      "more",
+      "times",
+      "a",
+      "week",
+      "Prefer",
+      "not",
+      "to",
+      "answer",
+      "Cannot get to sleep within 30",
+      "minutes",
+      "Wake",
+      "up",
+      "in",
+      "the",
+      "middle",
+      "of",
+      "the",
+      "night",
+      "or",
+      "early",
+      "morning",
+      "Have",
+      "to",
+      "get",
+      "up",
+      "to",
+      "use",
+      "the",
+      "bathroom",
+      "Cannot",
+      "breathe",
+      "comfortably",
+      "Cough",
+      "or",
+      "snore",
+      "loudly",
+      "Feel",
+      "too",
+      "cold",
+      "Feel",
+      "too",
+      "hot",
+      "Had",
+      "bad",
+      "dreams",
+      "Have",
+      "pain",
+      "Other reason(s)"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "Please Describe. How often during the past month have you had trouble sleeping because of this?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "During the past month, how would you rate your sleep quality overall?",
+    "A": [
+      "Very",
+      "bad",
+      "Fairly",
+      "bad",
+      "Fairly",
+      "good",
+      "Very",
+      "good",
+      "Prefer",
+      "not",
+      "to",
+      "answer"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "During the past month, how often have you taken medicine (prescribed or \"over the counter\") to help you sleep?",
+    "A": [
+      "Not",
+      "during",
+      "the",
+      "past",
+      "month",
+      "Less",
+      "than",
+      "once",
+      "a",
+      "week",
+      "Once",
+      "or",
+      "twice",
+      "a",
+      "week",
+      "Three",
+      "or",
+      "more",
+      "times",
+      "a",
+      "week",
+      "Prefer",
+      "not",
+      "to",
+      "answer",
+      "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "social activity?",
+    "A": [
+      "Not",
+      "during",
+      "the",
+      "past",
+      "month",
+      "Less",
+      "than",
+      "once",
+      "a",
+      "week",
+      "Once",
+      "or",
+      "twice",
+      "a",
+      "week",
+      "Three",
+      "or",
+      "more",
+      "times",
+      "a",
+      "week",
+      "Prefer",
+      "not",
+      "to",
+      "answer"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "During the past month, how much of a problem has it been for you to keep enthusiasm to get things done?",
+    "A": [
+      "Not",
+      "a",
+      "problem",
+      "at",
+      "all",
+      "Only",
+      "a",
+      "very",
+      "slight",
+      "problem",
+      "Somewhat",
+      "of",
+      "a",
+      "problem",
+      "A",
+      "very",
+      "big",
+      "problem",
+      "Prefer",
+      "not",
+      "to",
+      "answer"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you have a bed partner or a roommate?",
+    "A": [
+      "No",
+      "bed",
+      "partner",
+      "or",
+      "roommate",
+      "Partner",
+      "or",
+      "roommate",
+      "in",
+      "other",
+      "room",
+      "Roommate in same room, but not same bed",
+      "Partner in same room, but not same bed",
+      "Partner",
+      "in",
+      "same",
+      "bed",
+      "Prefer",
+      "not",
+      "to",
+      "answer",
+      "If you have a roommate or bed partner, ask him/her how often in the past month you have",
+      "had...",
+      "Not",
+      "during",
+      "the",
+      "past",
+      "month",
+      "Less",
+      "than",
+      "once",
+      "a",
+      "week",
+      "Once",
+      "or",
+      "twice",
+      "a",
+      "week",
+      "Three",
+      "or",
+      "more",
+      "times",
+      "a",
+      "week",
+      "N/A Prefer not to",
+      "answer",
+      "Loud",
+      "snoring",
+      "Long",
+      "pauses",
+      "between",
+      "breaths",
+      "while",
+      "asleep",
+      "Legs",
+      "twitching",
+      "or",
+      "jerking",
+      "while",
+      "you",
+      "sleep",
+      "Episodes of disorientation or",
+      "confusion",
+      "during",
+      "sleep",
+      "Other",
+      "restlessness",
+      "while",
+      "you",
+      "sleep"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How likely are you to doze off at inappropriate times? Such as when you are...",
+    "A": [
+      "Would",
+      "never",
+      "doze",
+      "Slight",
+      "chance",
+      "of",
+      "dozing",
+      "Moderate",
+      "chance",
+      "of",
+      "dozing",
+      "High",
+      "chance",
+      "of",
+      "dozing",
+      "Prefer",
+      "not",
+      "to",
+      "answer",
+      "Sitting & Reading",
+      "Watching",
+      "TV",
+      "Sitting",
+      "inactive",
+      "in",
+      "a",
+      "public",
+      "place",
+      "A",
+      "passenger",
+      "in",
+      "a",
+      "car",
+      "for",
+      "one",
+      "hour",
+      "without",
+      "a",
+      "break",
+      "Lying",
+      "down",
+      "to",
+      "rest",
+      "in",
+      "the",
+      "afternoon",
+      "Sitting & talking to someone",
+      "Sitting",
+      "quietly",
+      "after",
+      "lunch",
+      "(without alcohol)",
+      "In a car, stopped for a few",
+      "minutes",
+      "in",
+      "traffic",
+      "The",
+      "SoLAr",
+      "Study",
+      "Main",
+      "Survey",
+      "Lifestyle",
+      "Activities"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In an average week, how often do you skip breakfast?",
+    "A": [
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In an average week, how often do you eat 4 or more meals from sit-down or take out restaurants?",
+    "A": [
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In an average week, how often do you eat less than 2 servings of whole grain products or high fiber starches a day?",
+    "A": [
+      "Serving = 1 slice of 100% whole grain bread; 1 cup whole grain",
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In an average week, how often do you eat less than 2 servings of fruit a day? Serving = ½ cup or 1 med. fruit or ¾",
+    "A": [
+      "cup 100% fruit juice.",
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In an average week, how often do you eat less than 2 servings of vegetables a day? Serving = ½ cup vegetables, or",
+    "A": [
+      "1 cup leafy raw vegetables.",
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never",
+      "In an average week, how often do you eat more than 8 ounces (see sizes below) of meat, chicken, turkey or fish per"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "day? Note: 3 ounces of meat or chicken is the size of a deck of cards or ONE of the following: 1 regular hamburger, 1",
+    "A": [
+      "chicken breast or leg (thigh and drumstick), or 1 pork chop.",
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never",
+      "Rarely eat meat, chicken, turkey or fish",
+      "In an average week, how often do you use regular processed meats (like bologna, salami, corned beef, hot dogs,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "sausage, or bacon) instead of low-fat processed meats (like roast beef, turkey, lean ham, low-fat cold cuts/hot dogs)?",
+    "A": [
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never",
+      "Rarely",
+      "eat",
+      "processed",
+      "meats",
+      "In an average week, how often do you eat fried foods such as fried chicken, fried fish, French fries, fried plantains,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "tostones, or fried yuca?",
+    "A": [
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never",
+      "Rarely",
+      "eat",
+      "these",
+      "snack",
+      "foods",
+      "In an average week, how often do you eat regular potato chips, nacho chips, corn chips, crackers, regular popcorn,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "nuts instead of pretzels, low-fat chips or low-fat crackers, air-popped popcorn?",
+    "A": [
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never",
+      "In an average week, how often do you add butter, margarine or oil to bread, potatoes, rice or vegetables at the"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "table?",
+    "A": [
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never",
+      "In an average week, how often do you eat sweets like cake, cookies, pastries, donuts, muffins, chocolate, and"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "candies more than 2 times per day?",
+    "A": [
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In an average week, how often do you drink 16 ounces or more of non-diet soda, fruit drink/punch or Kool-Aid a day?",
+    "A": [
+      "Usually/Often",
+      "Sometimes",
+      "Rarely/Never"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you or a member of your family usually shops and cooks rather than eating sit-down or take-out restaurant food?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you or a member of your family usually feel well enough to shop or cook?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Rate how willing are you to make changes in your eating habits in order to be healthier?",
+    "A": [
+      "1, Very willing",
+      "2",
+      "3",
+      "4",
+      "5, Not willing at all"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Have you ever smoked cigarettes?",
+    "A": [
+      "Yes",
+      "No",
+      "Lifestyle",
+      "Activities"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you smoke cigarettes now?",
+    "A": [
+      "Yes",
+      "No",
+      "In the past three months, how often have you used tobacco products (cigarettes, chewing tobacco, cigars, etc.)",
+      "Never",
+      "Once",
+      "or",
+      "twice",
+      "Monthly",
+      "Weekly",
+      "Daily",
+      "or",
+      "almost",
+      "every",
+      "day"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you ever drink any alcoholic beverages such as beer, wine, or liquor?",
+    "A": [
+      "Yes",
+      "No",
+      "Never",
+      "have",
+      "used",
+      "alcohol"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last three months, on average, how many days per week have you had any alcohol to drink? (For example,",
+    "A": [
+      "beer, wine, or any drink containing liquor)",
+      "≥1 day per week",
+      "None",
+      "or",
+      "less",
+      "than",
+      "once",
+      "a",
+      "week",
+      "You selected ≥1 day/week."
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "On average, how many days per week do any alcohol to drink? (for example, beer, wine, or any drink containing",
+    "A": [
+      "liquor)"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "In the last three months, on the days you drank, about how many drinks did you have? (Enter 0 for none)",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last three months, on how many days have you had four or more drinks on one occasion? (Enter 0 for none)",
+    "A": [
+      "In the past three months, how often have you used cannabis (marijuana, pot, grass, hash, etc)",
+      "Never",
+      "Once",
+      "or",
+      "twice",
+      "Monthly",
+      "Weekly",
+      "Daily",
+      "or",
+      "almost",
+      "every",
+      "day",
+      "In the past three months, how often have you used cocaine (coke, crack, etc)",
+      "Never",
+      "Once",
+      "or",
+      "twice",
+      "Monthly",
+      "Weekly",
+      "Daily",
+      "or",
+      "almost",
+      "every",
+      "day",
+      "In the past three months, how often have you used amphetamine-type stimulants (speed, meth, ecstasy, etc)",
+      "Never",
+      "Once",
+      "or",
+      "twice",
+      "Monthly",
+      "Weekly",
+      "Daily",
+      "or",
+      "almost",
+      "every",
+      "day",
+      "In the past three months, how often have you used sedatives or sleeping pills (diazepam, alprazolam, flunitrazepam,",
+      "midazolam, etc)",
+      "Never",
+      "Once",
+      "or",
+      "twice",
+      "Monthly",
+      "Weekly",
+      "Daily",
+      "or",
+      "almost",
+      "every",
+      "day",
+      "In the past three months, how often have you used hallucinogens (LSD, acid, mushrooms, trips, ketamine, etc)",
+      "Never",
+      "Once",
+      "or",
+      "twice",
+      "Monthly",
+      "Weekly",
+      "Daily",
+      "or",
+      "almost",
+      "every",
+      "day",
+      "In the past three months, how often have you used opioids (heroin, morphine, methadone, buprenorphine, codeine,",
+      "etc)",
+      "Never",
+      "Once",
+      "or",
+      "twice",
+      "Monthly",
+      "Weekly",
+      "Daily",
+      "or",
+      "almost",
+      "every",
+      "day",
+      "Please specify any other items (smoking, alcohol, and substances) that you use that were not asked above."
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the past three months, how often have you used the items you listed?",
+    "A": [
+      "Never",
+      "Once",
+      "or",
+      "twice",
+      "Monthly",
+      "Weekly",
+      "Daily",
+      "or",
+      "almost",
+      "every",
+      "day",
+      "Lifestyle",
+      "Activities"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Is there anything else about your lifestyle activities that you would like to share with us?",
+    "A": [
+      "What services and supports do you currently have to help meet your needs for your lifestyle activities (e.g., senior",
+      "centers/clubs, intergenerational programs, transportation to social events, virtual social platforms, art/music/craft"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "classes, library programs, exercise classes, physical therapy, lifelong learning programs, etc)?",
+    "A": [
+      "How do you think technology could help meet your needs for your lifestyle activities (e.g., video calling devices,",
+      "Senior-friendly tablets/phones, virtual social platforms, wearable fitness trackers, tele-rehabilitation platforms,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "cognitive training apps, online learning platforms, digital art software, etc.)?",
+    "A": [
+      "Medical",
+      "Conditions"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "days was your physical health not good? (Enter a number 0-30)",
+    "A": [
+      "Thinking about your mental health, which includes stress, depression and problems with emotions, for how many"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "days during the past 30 days was your mental health not good? (Write number 0-30)",
+    "A": [
+      "During the past 30 days, for how many days did poor physical or mental health keep you from doing your usual"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "activities, such as self-care, work or recreation? (Write number 0-30)",
+    "A": [
+      "Medical",
+      "Conditions"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have heart disease?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have high blood pressure?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have lung disease?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have diabetes?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have ulcer or stomach disease?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have kidney disease?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have liver disease?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have anemia or other blood diseases?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have cancer?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have depression?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have osteoarthritis, degenerative arthritis?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have back pain?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have rheumatoid arthritis?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you receive treatment for it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Does it limit your activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you have any other medical conditions?",
+    "A": [
+      "Yes",
+      "No",
+      "Thinking across your entire life, has a doctor, nurse, or other medical professional ever told you that you had a"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "concussion or any other type of brain injury caused by a blow to the head?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many concussions, or other types of brain injury caused by a blow to the head, have you had in your lifetime?",
+    "A": [
+      "The",
+      "SoLAr",
+      "Study",
+      "Main",
+      "Survey",
+      "Medical",
+      "Conditions"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your medicine?",
+    "A": [
+      "None",
+      "of",
+      "the",
+      "time",
+      "A",
+      "little",
+      "of",
+      "the",
+      "time",
+      "Some",
+      "of",
+      "the",
+      "time",
+      "Most",
+      "of",
+      "the",
+      "time",
+      "Every",
+      "time"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you skipped a dose of your medicine?",
+    "A": [
+      "None",
+      "of",
+      "the",
+      "time",
+      "A",
+      "little",
+      "of",
+      "the",
+      "time",
+      "Some",
+      "of",
+      "the",
+      "time",
+      "Most",
+      "of",
+      "the",
+      "time",
+      "Every",
+      "time"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you not taken a dose of your medicine?",
+    "A": [
+      "None",
+      "of",
+      "the",
+      "time",
+      "A",
+      "little",
+      "of",
+      "the",
+      "time",
+      "Some",
+      "of",
+      "the",
+      "time",
+      "Most",
+      "of",
+      "the",
+      "time",
+      "Every",
+      "time"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you were out of your routine?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you forgot?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you could not meet the food requirements?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you did not have your medicine with you?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you could not afford the medication?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because the medication was not working?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much",
+      "Over the past 7 days how often have you missed your dose because you did not want others to see your"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "medications?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because the medication affected my sex life?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you were too late with your dose?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you there was no one to help you?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because treatment was hard on your family?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you had other medications to take?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you ran out of medication?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much",
+      "Over the past 7 days how often have you missed your dose because you were afraid the medication would interact"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "with other medication you take?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the past 7 days how often have you missed your dose because you were feeling too sick to take it?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much",
+      "Over the past 7 days how often have you missed your dose because you could not get answers to your questions"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "about the medication?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Once",
+      "or",
+      "twice",
+      "A",
+      "few",
+      "times",
+      "Most",
+      "days",
+      "Very",
+      "much",
+      "Medical",
+      "Conditions"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "Is there anything else about your medication adherence that you would like to share with us?",
+    "A": []
+  },
+  {
+    "type": "open",
+    "Q": "What services and supports do you currently have to help meet your needs for medication adherence?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "How do you think technology could help meet your needs for your medication adherence?",
+    "A": [
+      "Medical",
+      "Conditions"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "etc.)?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have a family member affected by Alzheimer's disease or another dementia?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Who was affected?",
+    "A": [
+      "Biological",
+      "grandmother",
+      "Biological",
+      "grandfather",
+      "Biological",
+      "mom",
+      "Biological",
+      "dad",
+      "Biological",
+      "aunt",
+      "Biological",
+      "uncle",
+      "Biological",
+      "sister",
+      "Biological",
+      "brother",
+      "Biological",
+      "daughter",
+      "Biological",
+      "son",
+      "Other",
+      "How",
+      "many"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know",
+      "How",
+      "many"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know",
+      "How",
+      "many"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know",
+      "How",
+      "many"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know",
+      "How",
+      "many"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know",
+      "How",
+      "many"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know",
+      "How",
+      "many"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know",
+      "How",
+      "many"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What age did the symptoms start?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Were they diagnosed with Alzheimer's Disease or another dementia?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know",
+      "Medical",
+      "Conditions"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How do you rate your sense of smell?",
+    "A": [
+      "Excellent",
+      "Very",
+      "Good",
+      "Good",
+      "Fair",
+      "Poor"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your sense of hearing?",
+    "A": [
+      "Excellent",
+      "Very",
+      "Good",
+      "Good",
+      "Fair",
+      "Poor"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you ever wear a hearing aid?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Is your hearing excellent, very good, good, fair, or poor using a hearing aid?",
+    "A": [
+      "Excellent",
+      "Very",
+      "Good",
+      "Good",
+      "Fair",
+      "Poor"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your eyesight?",
+    "A": [
+      "Excellent",
+      "Very",
+      "Good",
+      "Good",
+      "Fair",
+      "Poor"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you wear corrective lenses (e.g. glasses, contact lenses, etc.)?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Is your eyesight excellent, very good, good, fair, or poor using corrective lenses (e.g., glasses, contact lenses, etc.)?",
+    "A": [
+      "Excellent",
+      "Very",
+      "Good",
+      "Good",
+      "Fair",
+      "Poor",
+      "The",
+      "SoLAr",
+      "Study",
+      "Main",
+      "Survey",
+      "Physical",
+      "Function"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to write checks, pay bills, and balance checkbooks?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to assemble tax records, business affairs, or papers?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to shop alone for clothes, household necessities, or groceries?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to play a game of skill, work on a hobby?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to heat water, make a cup of coffee, turn off stove after use?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to prepare a balanced meal?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to keep track of current events?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to pay attention to, understand, discuss TV, books, or magazines?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to remember appointments, family occasions, holidays, medications?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How would you rate your ability to travel out of the neighborhood, drive, arrange to take buses?",
+    "A": [
+      "Dependent",
+      "Requires",
+      "assistance",
+      "Has",
+      "difficulty",
+      "but",
+      "does",
+      "by",
+      "self",
+      "Normal",
+      "Never",
+      "did",
+      "but",
+      "could",
+      "do",
+      "now",
+      "Never",
+      "did",
+      "and",
+      "would",
+      "have",
+      "difficulty",
+      "now",
+      "Physical",
+      "Function"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which statement best describes the amount of help you currently need when bathing?",
+    "A": [
+      "Bathes self completely or needs help in bathing only a single part of the body such as the back, genital area",
+      "or disabled extremity.",
+      "Need help with bathing more than one part of the body, getting in or out of the tub or shower. Requires total",
+      "bathing"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which statement best describes the amount of help you currently need when dressing?",
+    "A": [
+      "Get clothes from closets and drawers and puts on clothes and outer garments complete with fasteners. May",
+      "have help tying shoes.",
+      "Needs help with dressing self or needs to be completely dressed."
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which statement best describes the amount of help you currently need when toileting?",
+    "A": [
+      "Goes to toilet, gets on and off, arranges clothes, cleans genital area without help.",
+      "Needs help transferring to the toilet, cleaning self or uses bedpan or commode."
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which statement best describes the amount of help you currently need when transferring?",
+    "A": [
+      "Moves in and out of bed or chair unassisted. Mechanical transfer aids are acceptable.",
+      "Needs help in moving from bed to chair or requires a complete transfer."
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which statement best describes the amount of help you currently need with continence?",
+    "A": [
+      "Exercises complete self-control over urination and defecation.",
+      "Is",
+      "partially",
+      "or",
+      "totally",
+      "incontinent",
+      "of",
+      "bowel",
+      "or",
+      "bladder"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which statement best describes the amount of help you currently need when feeding?",
+    "A": [
+      "Gets food from plate into mouth without help. Preparation of food may be done by another person.",
+      "Needs partial or total help with feeding or requires parenteral feeding.",
+      "Physical",
+      "Function"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "Is there anything else about your physical function that you would like to share with us?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "What services and supports do you currently have to help meet your needs physical function? (physical therapy,",
+    "A": [
+      "occupational therapy, home health aides, exercise classes, fall risk assessment, chore/handyman services, home",
+      "modification consultation, installation of safety aids, paratransit/specialized ride services, etc.)"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How do you think technology could help meet your needs for your physical function? (motorized mobility aids,",
+    "A": [
+      "emergency medical alert systems, voice-activated assistants (e.g., Alexa, Google Home), video doorbells, smart pill",
+      "dispensers, etc.)",
+      "Emotional",
+      "Wellbeing"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Are you basically satisfied with your life?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Have you dropped many of your activities and interests?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you feel that your life is empty?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you often get bored?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Are you in good spirits most of the time?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Are you afraid that something bad is going to happen to you?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you feel happy most of the time?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you often feel helpless?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you prefer to stay at home, rather than going out and doing new things?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you feel you have more problems with memory than most people?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you think it is wonderful to be alive?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you feel pretty worthless the way you are now?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you feel full of energy?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you feel that your situation is hopeless?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you think that most people are better off than you are?",
+    "A": [
+      "Yes",
+      "No",
+      "Emotional",
+      "Wellbeing"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the last two weeks, how often have you been bothered by feeling nervous, anxious, or on edge?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Several",
+      "days",
+      "More",
+      "than",
+      "half",
+      "the",
+      "days",
+      "Nearly",
+      "every",
+      "day"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the last two weeks, how often have you been bothered by not being able to stop or control worrying?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Several",
+      "days",
+      "More",
+      "than",
+      "half",
+      "the",
+      "days",
+      "Nearly",
+      "every",
+      "day"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the last two weeks, how often have you been bothered by worrying too much about different things?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Several",
+      "days",
+      "More",
+      "than",
+      "half",
+      "the",
+      "days",
+      "Nearly",
+      "every",
+      "day"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the last two weeks, how often have you had trouble relaxing?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Several",
+      "days",
+      "More",
+      "than",
+      "half",
+      "the",
+      "days",
+      "Nearly",
+      "every",
+      "day"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the last two weeks, how often have you been bothered by being so restless that it is hard to sit still?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Several",
+      "days",
+      "More",
+      "than",
+      "half",
+      "the",
+      "days",
+      "Nearly",
+      "every",
+      "day"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the last two weeks, how often have you been bothered becoming easily annoyed or irritable?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Several",
+      "days",
+      "More",
+      "than",
+      "half",
+      "the",
+      "days",
+      "Nearly",
+      "every",
+      "day"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Over the last two weeks, how often have you been bothered by feeling afraid, as if something awful might happen?",
+    "A": [
+      "Not",
+      "at",
+      "all",
+      "Several",
+      "days",
+      "More",
+      "than",
+      "half",
+      "the",
+      "days",
+      "Nearly",
+      "every",
+      "day",
+      "If you checked any problems, how difficult have they made it for you to do your work, take care of things at home, or"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "get along with other people?",
+    "A": [
+      "Not",
+      "difficult",
+      "at",
+      "all",
+      "Somewhat",
+      "difficult",
+      "Very",
+      "difficult",
+      "Extremely",
+      "difficult",
+      "Emotional",
+      "Wellbeing"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you feel like your memory is becoming worse?",
+    "A": [
+      "No",
+      "Yes, but this does not worry me",
+      "Yes, this worries me",
+      "I worry about getting Alzheimer's disease or another type of dementia someday.",
+      "Strongly",
+      "disagree",
+      "Somewhat",
+      "Disagree",
+      "Neither",
+      "agree",
+      "nor",
+      "disagree",
+      "Somewhat",
+      "Agree",
+      "Strongly",
+      "agree",
+      "What is your perceived risk of being diagnosed with any kind of dementia (Alzheimer's disease, vascular dementia,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "etc.) during your lifetime?",
+    "A": [
+      "No",
+      "risk",
+      "at",
+      "all",
+      "Slight",
+      "risk",
+      "Moderate",
+      "risk",
+      "High",
+      "risk",
+      "Very",
+      "high",
+      "risk",
+      "Emotional",
+      "Wellbeing"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last month, how often have you been upset because of something that happened unexpectedly?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last month, how often have you felt that you were unable to control the important things in your life?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last month, how often have you felt nervous and stressed?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last month, how often have you felt confident about your ability to handle your personal problems?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last month, how often have you felt that things were going your way?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last month, how often have you found that you could not cope with all the things that you had to do?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last month, how often have you been able to control irritations in your life?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last month, how often have you felt that you were on top of things?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often",
+      "In the last month, how often have you been angered because of things that happened that were outside of your"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "control?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+    "A": [
+      "Never",
+      "Almost",
+      "never",
+      "Sometimes",
+      "Fairly",
+      "often",
+      "Very",
+      "often",
+      "Emotional",
+      "Wellbeing"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How often do you feel that you lack companionship?",
+    "A": [
+      "Hardly",
+      "ever",
+      "Some",
+      "of",
+      "the",
+      "time",
+      "Often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How often do you feel left out?",
+    "A": [
+      "Hardly",
+      "ever",
+      "Some",
+      "of",
+      "the",
+      "time",
+      "Often"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How often do you feel isolated from others?",
+    "A": [
+      "Hardly",
+      "ever",
+      "Some",
+      "of",
+      "the",
+      "time",
+      "Often",
+      "Emotional",
+      "Wellbeing"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "Is there anything else about your emotional well-being that you would like to share with us?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "What services and supports do you currently have to help meet your needs for your emotional well-being?",
+    "A": [
+      "(Counseling/psychotherapy, support groups, respite care services, volunteer matching programs, pet therapy,",
+      "peer-to-peer support hotlines, dementia day programs/adult day centers, meditation and relaxation classes, spiritual",
+      "support services, etc.)"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How do you think technology could help meet your needs for your emotional well-being? (Video chat platforms (e.g.,",
+    "A": [
+      "Zoom, FaceTime), online community forums/social groups, telehealth for mental health. Mood tracking/journaling",
+      "apps, cognitive behavioral therapy apps, emotional support robots/companions, meditation & sleep apps, digital",
+      "photo frames, virtual reality experiences, etc.)",
+      "Needs"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your living situation today?",
+    "A": [
+      "I",
+      "have",
+      "a",
+      "steady",
+      "place",
+      "to",
+      "live",
+      "I have a place to live today, but I am worried about losing it in the future",
+      "I do not have a steady place to live (I am temporarily staying with others, in a hotel, in a shelter, living outside",
+      "on the street, on a beach, in a car, abandoned building, bus or train station, or in a park)"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Think about the place you live. Do you have problems with any of the following? CHOOSE ALL THAT APPLY",
+    "A": [
+      "Pests such as bugs, ants, or mice",
+      "Mold",
+      "Lead",
+      "paint",
+      "or",
+      "pipes",
+      "Lack",
+      "of",
+      "heat",
+      "Oven",
+      "or",
+      "stove",
+      "not",
+      "working",
+      "Smoke",
+      "detectors",
+      "missing",
+      "or",
+      "not",
+      "working",
+      "Water",
+      "leaks",
+      "None",
+      "of",
+      "the",
+      "above",
+      "Within the past 12 months, you worried that your food would run out before you got money to buy more.",
+      "Often",
+      "true",
+      "Sometimes",
+      "true",
+      "Never",
+      "true",
+      "Within the past 12 months, the food you bought just didn't last and you didn't have money to get more.",
+      "Often",
+      "true",
+      "Sometimes",
+      "true",
+      "Never",
+      "true",
+      "In the past 12 months, has lack of reliable transportation kept you from medical appointments, meetings, work or"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "from getting things needed for daily living?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In the past 12 months has the electric, gas, oil, or water company threatened to shut off services in your home?",
+    "A": [
+      "Yes",
+      "No",
+      "Already",
+      "shut",
+      "off",
+      "The",
+      "SoLAr",
+      "Study",
+      "Main",
+      "Survey",
+      "Technology",
+      "Use"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Are you...?",
+    "A": [
+      "Male",
+      "Female",
+      "Non-binary",
+      "Prefer",
+      "not",
+      "to",
+      "answer"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your age?",
+    "A": [
+      "18-49",
+      "50-59",
+      "60-69",
+      "70-79",
+      "80+"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which of the following items do you have/own?",
+    "A": [
+      "(Instruction: Select all that apply.)",
+      "Desktop",
+      "computer",
+      "Laptop",
+      "computer",
+      "or",
+      "Netbook",
+      "Smartphone (e.g. iPhone, Android)",
+      "Tablet (e.g. iPad)",
+      "Wearable device (e.g. Fitbit, Garmin, Apple Watch, Samsung Galaxy Watch)",
+      "Home assistant (e.g. Amazon Echo/Alexa, Google Home)",
+      "Gaming system (e.g., Xbox, PlayStation)",
+      "Home audio equipment (e.g. Sonos)",
+      "Smart home cleaning device (e.g. Roomba, self-cleaning litter box)",
+      "Home health and safety device (e.g. emergency alert systems, digital medication manager)",
+      "Digital connected fitness equipment (e.g. Peloton, Mirror)",
+      "Smart home technology/security (e.g. Nest, Ring, SimpliSafe)",
+      "Smart home appliance (e.g., refrigerator or washing machine with Wi-Fi)",
+      "Smart home utility (e.g., smart thermostat, use management)",
+      "Smart home lighting (e.g., smart light bulb)",
+      "Wi-Fi range extender/booster (e.g., Google Mesh, NETGEAR)",
+      "Regular cell phone (not including iPhone or other smartphones)",
+      "E-reader (e.g. Kindle, Nook)",
+      "GPS",
+      "tracker",
+      "specifically",
+      "designed",
+      "to",
+      "monitor",
+      "and",
+      "share",
+      "location",
+      "Virtual Reality (VR) device",
+      "Bluetooth headset/ear buds (e.g. AirPods)",
+      "Now, looking at some of the tech items in the home again, how often do you use the"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "following?",
+    "A": [
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Less",
+      "often",
+      "than",
+      "monthly",
+      "Don't",
+      "use",
+      "Don't",
+      "know",
+      "Desktop",
+      "computer",
+      "Laptop",
+      "computer",
+      "or",
+      "Notebook",
+      "Smartphone (e.g. iPhone,",
+      "Android)",
+      "Tablet",
+      "Wearable",
+      "device",
+      "Home",
+      "assistant",
+      "Which of the following types of information or activities have you engaged with online in the past 3 months, via a"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "website or a mobile app? These are also referred to as digital services.",
+    "A": [
+      "Internet browsing (e.g., Safari, Chrome)",
+      "Communication (e.g., email, text, instant messenger)",
+      "News or magazines (e.g., CNN, Apple News, Yahoo News)",
+      "Photos (e.g., Photos, Camera)",
+      "Video or movie streaming (e.g., Netflix, Hulu)",
+      "Games (e.g., Solitaire, Candy Crush, Words with Friends)",
+      "Calendar (e.g., iCal, Outlook)",
+      "Books (e.g., iBooks, Kindle, Libby)",
+      "Finance or banking (e.g., Mint, Bank of America, Venmo)",
+      "Health or fitness tracking (e.g., Apple Health, MyFitnessPal)",
+      "Music (e.g., Spotify, Apple music, Sonos)",
+      "Podcasts (e.g., Apple Podcasts, Podcast Addict)",
+      "Online Dating (e.g., Hinge, Elite Singles, Bumble)",
+      "Social media (e.g., Facebook, Instagram, X)",
+      "Sports (e.g., NFL, ESPN)",
+      "Travel (e.g., Expedia, airline apps, Airbnb)",
+      "Retail/shopping (e.g., Starbucks, Amazon, Walmart, Ebay)",
+      "Productivity/business (e.g., MS Office, Salesforce)",
+      "Weather (e.g., Weatherbug, Accuweather)",
+      "Transportation (e.g., Uber, Lyft, public transit)",
+      "Coupons (e.g., Groupon, Swagbucks)",
+      "Maps and navigation (e.g., Waze, Google Maps)",
+      "Reviews/information (e.g., Yelp, TripAdvisor, Rotten Tomatoes)",
+      "Smart home technology/security (e.g., Nest, Ring, SimpliSafe)",
+      "Educational resources (e.g., University of Phoenix)",
+      "Home assistant (e.g., Amazon Echo/Alexa or Google Home)",
+      "Mental Health and Wellness (e.g., Headspace, Calm)",
+      "Video Chat (e.g., FaceTime, Zoom, WhatsApp)",
+      "Language (e.g., Duolingo, Babbel)",
+      "Caregiving (e.g., A Place for Mom, Care.com)",
+      "Food delivery (e.g., Grubhub, Door Dash, Instacart)",
+      "Home (e.g., Zillow, Houzz)",
+      "Automotive (e.g., GasBuddy, AAA)",
+      "Telemedicine (e.g., Teladoc, MDLIVE)",
+      "Medical (e.g., GoodRX, LifeAlert, health records)",
+      "Fitness classes (e.g., Mindbody, Peloton, Nike)",
+      "Personal hobbies (e.g. gardening, bird watching, plant care)",
+      "Generative AI tools (e.g., ChatGPT, Gemini, CoPilot)",
+      "Chronic Health Management (e.g., Glucose Buddy, SmartBP)",
+      "Other",
+      "Don't",
+      "know",
+      "Now more specifically, for those types of digital services you engaged with recently, please",
+      "indicate if you typically access them via a website or an app on your mobile device.",
+      "Website",
+      "App",
+      "Both",
+      "Internet browsing (e.g., Safari,",
+      "Chrome)",
+      "Communication (e.g., email,",
+      "text, instant messenger)",
+      "News or magazines (e.g., CNN,",
+      "Apple News, Yahoo News)",
+      "Photos (e.g., Photos, Camera)",
+      "Video or movie streaming (e.g.,",
+      "Netflix, Hulu)",
+      "Games (e.g., Solitaire, Candy",
+      "Crush, Words with Friends)",
+      "Calendar (e.g., iCal, Outlook)",
+      "Books (e.g., iBooks, Kindle,",
+      "Libby) Finance or banking (e.g., Mint,",
+      "Bank of America, Venmo)",
+      "Health tracking or fitness (e.g.,",
+      "Apple Health, MyFitnessPal)",
+      "Music (e.g., Spotify, Apple Music,",
+      "Sonos)",
+      "Podcasts (e.g., Apple Podcasts,",
+      "Podcast Addict)",
+      "Online Dating (e.g., Hinge, Elite",
+      "Singles, Bumble)",
+      "Social media (e.g., Facebook,",
+      "Instagram, X)",
+      "Sports (e.g., NFL, ESPN)",
+      "Travel (e.g., Expedia, airline",
+      "apps, Airbnb)",
+      "Retail/shopping (e.g., Starbucks,",
+      "Amazon, Walmart, eBay)",
+      "Productivity/business (e.g., MS",
+      "Office, Salesforce)",
+      "Weather (e.g., Weatherbug,",
+      "Accuweather)",
+      "Transportation (e.g., Uber, Lyft,",
+      "public transit apps)",
+      "Coupons (e.g., Groupon,",
+      "Swagbucks)",
+      "Maps and navigation (e.g.,",
+      "Waze, Google Maps)",
+      "Reviews/information (e.g., Yelp,",
+      "TripAdvisor, Rotten Tomatoes)",
+      "Smart home technology/security",
+      "(e.g., Nest, Ring, SimpliSafe)",
+      "Educational resources (e.g.,",
+      "University of Phoenix)",
+      "Home assistant (e.g., Amazon",
+      "Echo/Alexa or Google Home)",
+      "Mental",
+      "Health",
+      "and",
+      "Wellness",
+      "(e.g., Headspace, Calm)",
+      "Video Chat (e.g., FaceTime,",
+      "Zoom, WhatsApp)",
+      "Language apps (e.g., Duolingo,",
+      "Babbel)",
+      "Caregiving (e.g., A Place for",
+      "Mom, Care.com)",
+      "Food delivery (e.g., Grubhub,",
+      "Door Dash, Instacart)",
+      "Home (e.g., Zillow, Houzz)",
+      "Automotive (e.g., GasBuddy,",
+      "AAA) Telemedicine (e.g., Teladoc,",
+      "MDLIVE)",
+      "Medical (e.g., GoodRX, LifeAlert,",
+      "health records)",
+      "Fitness classes (e.g., Mindbody,",
+      "Peloton, Nike)",
+      "Personal hobbies (e.g.",
+      "gardening, bird watching, plant",
+      "care)",
+      "Generative AI tools (e.g.,",
+      "ChatGPT, Gemini, CoPilot)",
+      "Chronic",
+      "Health",
+      "Management",
+      "(e.g., Glucose Buddy, SmartBP)",
+      "Other",
+      "Below are the types of apps you said you engaged with recently. Please select all that you pay a fee for access to",
+      "content available through the app.",
+      "Internet browsing (e.g., Safari, Chrome)",
+      "Communication (e.g., email, text, instant messenger)",
+      "News or magazines (e.g., CNN, Apple News, Yahoo News)",
+      "Photos (e.g., Photos, Camera)",
+      "Video or movie streaming (e.g., Netflix, Hulu)",
+      "Games (e.g., Solitaire, Candy Crush, Words with Friends)",
+      "Calendar (e.g., iCal, Outlook)",
+      "Books (e.g., iBooks, Kindle, Libby)",
+      "Finance or banking (e.g., Mint, Bank of America, Venmo)",
+      "Health tracking or fitness (e.g., Apple Health, MyFitnessPal)",
+      "Music (e.g., Spotify, Apple Music, Sonos)",
+      "Podcasts (e.g., Apple Podcasts, Podcast Addict)",
+      "Online Dating (e.g., Hinge, Elite Singles, Bumble)",
+      "Social media (e.g., Facebook, Instagram, X)",
+      "Sports (e.g., NFL, ESPN)",
+      "Travel (e.g., Expedia, airline apps, Airbnb)",
+      "Retail/shopping (e.g., Starbucks, Amazon, Walmart, eBay)",
+      "Productivity/business (e.g., MS Office, Salesforce)",
+      "Weather (e.g., Weatherbug, Accuweather)",
+      "Transportation (e.g., Uber, Lyft, public transit apps)",
+      "Coupons (e.g., Groupon, Swagbucks)",
+      "Maps and navigation (e.g., Waze, Google Maps)",
+      "Reviews/information (e.g., Yelp, TripAdvisor, Rotten Tomatoes)",
+      "Smart home technology/security (e.g., Nest, Ring, SimpliSafe)",
+      "Educational resources (e.g., University of Phoenix)",
+      "Home assistant (e.g., Amazon Echo/Alexa or Google Home)",
+      "Mental Health and Wellness (e.g., Headspace, Calm)",
+      "Video Chat (e.g., FaceTime, Zoom, WhatsApp)",
+      "Language apps (e.g., Duolingo, Babbel)",
+      "Caregiving (e.g., A Place for Mom, Care.com)",
+      "Food delivery (e.g., Grubhub, Door Dash, Instacart)",
+      "Home (e.g., Zillow, Houzz)",
+      "Automotive (e.g., GasBuddy, AAA)",
+      "Telemedicine (e.g., Teladoc, MDLIVE)",
+      "Medical (e.g., GoodRX, LifeAlert, health records)",
+      "Fitness classes (e.g., Mindbody, Peloton, Nike)",
+      "Personal hobbies (e.g. gardening, bird watching, plant care)",
+      "Generative AI tools (e.g., ChatGPT, Gemini, CoPilot)",
+      "Chronic Health Management (e.g., Glucose Buddy, SmartBP)",
+      "Other",
+      "None",
+      "of",
+      "the",
+      "above",
+      "Don't",
+      "know",
+      "Of those digital services apps you currently use but do not pay a fee for, which ones would you be willing to pay a"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "reasonable monthly fee for in order to have continued access to it?",
+    "A": [
+      "Internet browsing (e.g., Safari, Chrome)",
+      "Communication (e.g., email, text, instant messenger)",
+      "News or magazines (e.g., CNN, Apple News, Yahoo News)",
+      "Photos (e.g., Photos, Camera)",
+      "Video or movie streaming (e.g., Netflix, Hulu)",
+      "Games (e.g., Solitaire, Candy Crush, Words with Friends)",
+      "Calendar (e.g., iCal, Outlook)",
+      "Books (e.g., iBooks, Kindle, Libby)",
+      "Finance or banking (e.g., Mint, Bank of America, Venmo)",
+      "Health tracking or fitness (e.g., Apple Health, MyFitnessPal)",
+      "Music (e.g., Spotify, Apple Music, Sonos)",
+      "Podcasts (e.g., Apple Podcasts, Podcast Addict)",
+      "Online Dating (e.g., Hinge, Elite Singles, Bumble)",
+      "Social media (e.g., Facebook, Instagram, X)",
+      "Sports (e.g., NFL, ESPN)",
+      "Travel (e.g., Expedia, airline apps, Airbnb)",
+      "Retail/shopping (e.g., Starbucks, Amazon, Walmart, eBay)",
+      "Productivity/business (e.g., MS Office, Salesforce)",
+      "Weather (e.g., Weatherbug, Accuweather)",
+      "Transportation (e.g., Uber, Lyft, public transit apps)",
+      "Coupons (e.g., Groupon, Swagbucks)",
+      "Maps and navigation (e.g., Waze, Google Maps)",
+      "Reviews/information (e.g., Yelp, TripAdvisor, Rotten Tomatoes)",
+      "Smart home technology/security (e.g., Nest, Ring, SimpliSafe)",
+      "Educational resources (e.g., University of Phoenix)",
+      "Home assistant (e.g., Amazon Echo/Alexa or Google Home)",
+      "Mental Health and Wellness (e.g., Headspace, Calm)",
+      "Video Chat (e.g., FaceTime, Zoom, WhatsApp)",
+      "Language apps (e.g., Duolingo, Babbel)",
+      "Caregiving (e.g., A Place for Mom, Care.com)",
+      "Food delivery (e.g., Grubhub, Door Dash, Instacart)",
+      "Home (e.g., Zillow, Houzz)",
+      "Automotive (e.g., GasBuddy, AAA)",
+      "Telemedicine (e.g., Teladoc, MDLIVE)",
+      "Medical (e.g., GoodRX, LifeAlert, health records)",
+      "Fitness classes (e.g., Mindbody, Peloton, Nike)",
+      "Personal hobbies (e.g. gardening, bird watching, plant care)",
+      "Generative AI tools (e.g., ChatGPT, Gemini, CoPilot)",
+      "Chronic Health Management (e.g., Glucose Buddy, SmartBP)",
+      "Other",
+      "None",
+      "of",
+      "the",
+      "above",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you currently own a smart TV?",
+    "A": [
+      "Yes",
+      "No",
+      "Not",
+      "sure",
+      "Which types of devices do you use in the home for streamed entertainment, such as shows, movies, series, and/or"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "videos?",
+    "A": [
+      "SmartTV",
+      "Desktop",
+      "computer",
+      "Laptop",
+      "computer",
+      "or",
+      "Netbook",
+      "Smartphone (e.g., iPhone, Android)",
+      "Tablet (e.g., iPad)",
+      "Smart",
+      "speaker",
+      "Connected device (e.g., Firestick, Apple TV)",
+      "Other",
+      "I do not stream any entertainment"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which of the following streaming services do you currently subscribe to?",
+    "A": [
+      "Netflix",
+      "Hulu",
+      "Amazon",
+      "Prime",
+      "Video",
+      "DirectTV",
+      "Now",
+      "YouTube TV (the streaming service, not YouTube.com)",
+      "PlayStation",
+      "Vue",
+      "Sling",
+      "Disney+",
+      "Peacock",
+      "Max (formerly HBO Max)",
+      "Apple",
+      "TV",
+      "Paramount+",
+      "Tubi",
+      "Pluto",
+      "ESPN+",
+      "Other",
+      "Don't",
+      "know",
+      "When you think about all of the various streaming services available for subscription, which of the following do you"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "use to place limits on yourself, if any?",
+    "A": [
+      "The total amount I am spending on subscriptions each month",
+      "The",
+      "total",
+      "number",
+      "of",
+      "services",
+      "I",
+      "subscribe",
+      "to",
+      "Neither, I do not limit myself",
+      "Don't",
+      "know",
+      "Please rate how much you agree or disagree with the following statement:",
+      "I rely on technology to stay connected and in touch with friends and family.",
+      "Strongly",
+      "agree",
+      "Somewhat",
+      "agree",
+      "Neither",
+      "agree",
+      "nor",
+      "disagree",
+      "Somewhat",
+      "disagree",
+      "Strongly",
+      "disagree",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which of the following social media platforms do you use?",
+    "A": [
+      "Facebook",
+      "X (formerly known as Twitter)",
+      "Instagram",
+      "YouTube",
+      "TikTok",
+      "LinkedIn",
+      "Pinterest",
+      "WhatsApp",
+      "NextDoor",
+      "Reddit",
+      "Threads",
+      "Truth",
+      "Social",
+      "Snapchat",
+      "Other",
+      "None, I do not engage in social media",
+      "Please rate how much you agree or disagree with the following statements:",
+      "Strongly",
+      "agree",
+      "Somewhat",
+      "agree",
+      "Neither",
+      "agree",
+      "nor",
+      "disagree",
+      "Somewhat",
+      "disagree",
+      "Strongly",
+      "disagree",
+      "Don't",
+      "know",
+      "I",
+      "have",
+      "the",
+      "digital",
+      "skills",
+      "necessary",
+      "to",
+      "fully",
+      "take",
+      "advantage",
+      "of",
+      "being",
+      "online.",
+      "Technology",
+      "enables",
+      "me",
+      "to",
+      "lead",
+      "a",
+      "healthy life.",
+      "And please rate how much you agree or disagree with the following statements:",
+      "Strongly",
+      "agree",
+      "Somewhat",
+      "agree",
+      "Neither",
+      "agree",
+      "nor",
+      "disagree",
+      "Somewhat",
+      "disagree",
+      "Strongly",
+      "disagree",
+      "Don't",
+      "know",
+      "Technology",
+      "helps",
+      "make",
+      "my",
+      "daily",
+      "life easier.",
+      "Technology",
+      "can",
+      "help",
+      "make",
+      "aging",
+      "easier.",
+      "Technology helps enrich my life.",
+      "Now we'd like to talk to you about smart home devices.",
+      "Smart home devices use your home Wi-Fi to add ease and functionality to your home; most",
+      "are manageable through an app on your mobile device.",
+      "Please",
+      "indicate",
+      "your",
+      "level",
+      "of",
+      "familiarity",
+      "with",
+      "each",
+      "of",
+      "the",
+      "following",
+      "types",
+      "of",
+      "smart",
+      "home",
+      "devices.",
+      "I",
+      "currently",
+      "use",
+      "them",
+      "I",
+      "am",
+      "aware",
+      "of",
+      "them, and",
+      "interested",
+      "in",
+      "using",
+      "them",
+      "I",
+      "am",
+      "aware",
+      "of",
+      "them, but not",
+      "interested",
+      "in",
+      "using",
+      "them",
+      "I",
+      "am",
+      "currently",
+      "not",
+      "aware",
+      "of",
+      "them, but",
+      "interested",
+      "I",
+      "am",
+      "not",
+      "aware",
+      "of",
+      "this",
+      "technology,",
+      "and",
+      "not",
+      "interested",
+      "Don't",
+      "know",
+      "Security - interconnected",
+      "devices",
+      "that",
+      "monitor",
+      "your",
+      "home",
+      "safety",
+      "Appliance - a Wi-Fi connected",
+      "appliance",
+      "that",
+      "can",
+      "be",
+      "operated",
+      "remotely",
+      "Extender - a device that extends",
+      "the reach of your Wi-Fi signal",
+      "Utility - a smart device that",
+      "manages",
+      "energy",
+      "and",
+      "water",
+      "utility",
+      "usage",
+      "Lighting - a smart home lighting",
+      "system",
+      "that",
+      "allows",
+      "you",
+      "to",
+      "automate",
+      "or",
+      "control",
+      "Cleaning - a smart device that",
+      "autonomously",
+      "or",
+      "semi-autonomously performs",
+      "Now, thinking about some of the newer technologies available today, please indicate your",
+      "level of familiarity and interest in the use of home safety technology devices for your home.",
+      "I",
+      "currently",
+      "use",
+      "them",
+      "I",
+      "am",
+      "aware",
+      "of",
+      "them, and",
+      "interested",
+      "in",
+      "using",
+      "them",
+      "I",
+      "am",
+      "aware",
+      "of",
+      "them, but not",
+      "interested",
+      "in",
+      "using",
+      "them",
+      "I",
+      "am",
+      "currently",
+      "not",
+      "aware",
+      "of",
+      "them, but",
+      "interested",
+      "I",
+      "am",
+      "not",
+      "aware",
+      "of",
+      "this",
+      "technology,",
+      "and",
+      "not",
+      "interested",
+      "Don't",
+      "know",
+      "Sensors",
+      "placed",
+      "throughout",
+      "your",
+      "home",
+      "to",
+      "detect",
+      "if",
+      "someone",
+      "falls",
+      "and, if so, calls for",
+      "Small",
+      "electronic",
+      "devices",
+      "that",
+      "can",
+      "turn off appliances (such as a",
+      "stove) when not in use,",
+      "An",
+      "electronic",
+      "system",
+      "that",
+      "lets",
+      "a",
+      "family",
+      "member",
+      "or",
+      "friend",
+      "know",
+      "if",
+      "you are okay, or if your",
+      "An",
+      "alarm",
+      "that",
+      "could",
+      "tell",
+      "you",
+      "when a door or window (in your",
+      "home) has been opened or",
+      "A",
+      "device",
+      "that",
+      "enables",
+      "you",
+      "to",
+      "see",
+      "who",
+      "is",
+      "at",
+      "your",
+      "front",
+      "door/driveway",
+      "A device for monitoring in-home",
+      "location",
+      "of",
+      "an",
+      "older",
+      "adult",
+      "when",
+      "you",
+      "are",
+      "not",
+      "present",
+      "A smart, robotic device for",
+      "companionship, entertainment,",
+      "or wellness (e.g., robotic cat)",
+      "A Wi-Fi enabled smoke or gas",
+      "leak",
+      "detector",
+      "Are",
+      "you",
+      "currently",
+      "providing",
+      "unpaid",
+      "care",
+      "or",
+      "assistance",
+      "to",
+      "an",
+      "adult",
+      "friend",
+      "or",
+      "family",
+      "member",
+      "who",
+      "needs",
+      "assistance",
+      "due"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "to aging, a disability, or a health-related issue?",
+    "A": [
+      "By care or assistance, we are referring to providing help with activities (such as bath/dressing, grocery shopping,",
+      "housekeeping, meal preparation, providing transportation to medical appointments, managing medications, help",
+      "with bill-paying or managing their finances, arranging for outside services, etc.) for someone who needs assistance",
+      "due to aging, a disability, or a health-related issue.",
+      "Yes, doing so currently",
+      "Yes, within the past year, but not currently",
+      "No, not within the past year",
+      "No, never",
+      "Now, thinking about some of the newer technologies available today, please indicate your",
+      "level of familiarity and interest in the use of home safety technology devices for your home.",
+      "I",
+      "currently",
+      "use",
+      "them",
+      "I",
+      "am",
+      "aware",
+      "of",
+      "them, and",
+      "interested",
+      "in",
+      "using",
+      "them",
+      "I",
+      "am",
+      "aware",
+      "of",
+      "them, but not",
+      "interested",
+      "in",
+      "using",
+      "them",
+      "I",
+      "am",
+      "currently",
+      "not",
+      "aware",
+      "of",
+      "them, but",
+      "interested",
+      "I",
+      "am",
+      "not",
+      "aware",
+      "of",
+      "this",
+      "technology,",
+      "and",
+      "not",
+      "interested",
+      "Don't",
+      "know",
+      "Emergency response systems -",
+      "physically",
+      "or",
+      "voice",
+      "activated",
+      "systems",
+      "to",
+      "alert",
+      "emergency",
+      "care",
+      "(e.g., Life Alert)",
+      "Motion Sensors - monitors",
+      "routines or lack of motion (e.g.,",
+      "SimpliSafe)",
+      "Location detectors - GPS devices",
+      "to",
+      "help",
+      "keep",
+      "track",
+      "of",
+      "a",
+      "loved",
+      "one",
+      "(e.g., Find My iPhone)",
+      "Scheduling Assistants - helps",
+      "families coordinate care,",
+      "appointments, medications (e.g.,",
+      "Daily activity tracker - monitors",
+      "and",
+      "supports",
+      "daily",
+      "activities",
+      "of",
+      "the",
+      "person",
+      "being",
+      "cared",
+      "Online Support Communities￾emotional support for the",
+      "caregiver (e.g., Wisdo, TCARE)",
+      "Still thinking about your role as a caregiver, reviewing the various digital services you indicated using in the past 3"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "months, which ones, if any, do you use to aid you in your caregiving responsibilities?",
+    "A": [
+      "Select all that apply.",
+      "Internet browsing (e.g., Safari, Chrome)",
+      "Communication (e.g., email, text, instant messenger)",
+      "News or magazines (e.g., CNN, Apple News, Yahoo News)",
+      "Photos (e.g., Photos, Camera)",
+      "Video or movie streaming (e.g., Netflix, Hulu)",
+      "Games (e.g., Solitaire, Candy Crush, Words with Friends)",
+      "Calendar (e.g., iCal, Outlook)",
+      "Books (e.g., iBooks, Kindle, Libby)",
+      "Finance or banking (e.g., Mint, Bank of America, Venmo)",
+      "Health tracking or fitness (e.g., Apple Health, MyFitnessPal)",
+      "Music (e.g., Spotify, Apple Music, Sonos)",
+      "Podcasts (e.g., Apple Podcasts, Podcast Addict)",
+      "Online Dating (e.g., Hinge, Elite Singles, Bumble)",
+      "Social media (e.g., Facebook, Instagram, X)",
+      "Sports (e.g., NFL, ESPN)",
+      "Travel (e.g., Expedia, airline apps, Airbnb)",
+      "Retail/shopping (e.g., Starbucks, Amazon, Walmart, eBay)",
+      "Productivity/business (e.g., MS Office, Salesforce)",
+      "Weather (e.g., Weatherbug, Accuweather)",
+      "Transportation (e.g., Uber, Lyft, public transit apps)",
+      "Coupons (e.g., Groupon, Swagbucks)",
+      "Maps and navigation (e.g., Waze, Google Maps)",
+      "Reviews/information (e.g., Yelp, TripAdvisor, Rotten Tomatoes)",
+      "Smart home technology/security (e.g., Nest, Ring, SimpliSafe)",
+      "Educational resources (e.g., University of Phoenix)",
+      "Home assistant (e.g., Amazon Echo/Alexa or Google Home)",
+      "Mental Health and Wellness (e.g., Headspace, Calm)",
+      "Video Chat (e.g., FaceTime, Zoom, WhatsApp)",
+      "Language apps (e.g., Duolingo, Babbel)",
+      "Caregiving (e.g., A Place for Mom, Care.com)",
+      "Food delivery (e.g., Grubhub, Door Dash, Instacart)",
+      "Home (e.g., Zillow, Houzz)",
+      "Automotive (e.g., GasBuddy, AAA)",
+      "Telemedicine (e.g., Teladoc, MDLIVE)",
+      "Medical (e.g., GoodRX, LifeAlert, health records)",
+      "Fitness classes (e.g., Mindbody, Peloton, Nike)",
+      "Personal hobbies (e.g. gardening, bird watching, plant care)",
+      "Generative AI tools (e.g., ChatGPT, Gemini, CoPilot)",
+      "Chronic Health Management (e.g., Glucose Buddy, SmartBP)",
+      "Other",
+      "None",
+      "of",
+      "the",
+      "above"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your level of engagement and/or interest in using technology to help maintain brain health?",
+    "A": [
+      "sleep patterns or stress levels (e.g., Oura Ring), or personalized supplements or nutritional products based on",
+      "genetic or blood tests (e.g., Baze).",
+      "I",
+      "currently",
+      "use",
+      "them",
+      "I am aware of them, and interested in using them",
+      "I am aware of them, but not interested in using them",
+      "I am currently not aware of them, but interested",
+      "I am not aware of this technology, and not interested"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How many (if any) chronic or serious medical conditions do you suffer from?",
+    "A": [
+      "This would include conditions like asthma, diabetes, high blood pressure, arthritis, cancer, heart disease,",
+      "autoimmune disorders, or any other conditions that you consider chronic.",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5+",
+      "None",
+      "Don't",
+      "know",
+      "Now, reviewing the various digital services you indicated using in the past 3 months, which ones, if any, do you use"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "to help you maintain or improve your personal health and wellness?",
+    "A": [
+      "Internet browsing (e.g., Safari, Chrome)",
+      "Communication (e.g., email, text, instant messenger)",
+      "News or magazines (e.g., CNN, Apple News, Yahoo News)",
+      "Photos (e.g., Photos, Camera)",
+      "Video or movie streaming (e.g., Netflix, Hulu)",
+      "Games (e.g., Solitaire, Candy Crush, Words with Friends)",
+      "Calendar (e.g., iCal, Outlook)",
+      "Books (e.g., iBooks, Kindle, Libby)",
+      "Finance or banking (e.g., Mint, Bank of America, Venmo)",
+      "Health tracking or fitness (e.g., Apple Health, MyFitnessPal)",
+      "Music (e.g., Spotify, Apple Music, Sonos)",
+      "Podcasts (e.g., Apple Podcasts, Podcast Addict)",
+      "Online Dating (e.g., Hinge, Elite Singles, Bumble)",
+      "Social media (e.g., Facebook, Instagram, X)",
+      "Sports (e.g., NFL, ESPN)",
+      "Travel (e.g., Expedia, airline apps, Airbnb)",
+      "Retail/shopping (e.g., Starbucks, Amazon, Walmart, eBay)",
+      "Productivity/business (e.g., MS Office, Salesforce)",
+      "Weather (e.g., Weatherbug, Accuweather)",
+      "Transportation (e.g., Uber, Lyft, public transit apps)",
+      "Coupons (e.g., Groupon, Swagbucks)",
+      "Maps and navigation (e.g., Waze, Google Maps)",
+      "Reviews/information (e.g., Yelp, TripAdvisor, Rotten Tomatoes)",
+      "Smart home technology/security (e.g., Nest, Ring, SimpliSafe)",
+      "Educational resources (e.g., University of Phoenix)",
+      "Home assistant (e.g., Amazon Echo/Alexa or Google Home)",
+      "Mental Health and Wellness (e.g., Headspace, Calm)",
+      "Video Chat (e.g., FaceTime, Zoom, WhatsApp)",
+      "Language apps (e.g., Duolingo, Babbel)",
+      "Caregiving (e.g., A Place for Mom, Care.com)",
+      "Food delivery (e.g., Grubhub, Door Dash, Instacart)",
+      "Home (e.g., Zillow, Houzz)",
+      "Automotive (e.g., GasBuddy, AAA)",
+      "Telemedicine (e.g., Teladoc, MDLIVE)",
+      "Medical (e.g., GoodRX, LifeAlert, health records)",
+      "Fitness classes (e.g., Mindbody, Peloton, Nike)",
+      "Personal hobbies (e.g. gardening, bird watching, plant care)",
+      "Generative AI tools (e.g., ChatGPT, Gemini, CoPilot)",
+      "Chronic Health Management (e.g., Glucose Buddy, SmartBP)",
+      "Other",
+      "None",
+      "of",
+      "the",
+      "above",
+      "When it comes to getting around, please indicate your level of familiarity with and interest in",
+      "each type of mobility technology.",
+      "I",
+      "currently",
+      "use",
+      "them",
+      "I",
+      "am",
+      "aware",
+      "of",
+      "them, and",
+      "interested",
+      "in",
+      "using",
+      "them",
+      "I",
+      "am",
+      "aware",
+      "of",
+      "them, but not",
+      "interested",
+      "in",
+      "using",
+      "them",
+      "I",
+      "am",
+      "currently",
+      "not",
+      "aware",
+      "of",
+      "them, but",
+      "interested",
+      "I",
+      "am",
+      "not",
+      "aware",
+      "of",
+      "this",
+      "technology,",
+      "and",
+      "not",
+      "interested",
+      "Don't",
+      "know",
+      "Ride sharing services (e.g., Uber,",
+      "Lyft)",
+      "Autonomous vehicles (e.g., a",
+      "Tesla in Autopilot mode)",
+      "Telematics",
+      "to",
+      "monitor",
+      "your",
+      "driving (e.g., speed, braking)",
+      "Mobility aids (e.g., electric",
+      "walkers)",
+      "Electric",
+      "scooters",
+      "E-Bikes"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which of the following best describes how you engage with new technology?",
+    "A": [
+      "Early adopter, first to try it",
+      "Usually",
+      "try",
+      "it",
+      "after",
+      "it's",
+      "been",
+      "around",
+      "for",
+      "a",
+      "while",
+      "One",
+      "of",
+      "the",
+      "last",
+      "to",
+      "try",
+      "it",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you feel like technology today is being designed with your age in mind?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you typically feel any hesitation when considering the purchase of new technology?",
+    "A": [
+      "Yes",
+      "No",
+      "Don't",
+      "know",
+      "Please indicate the degree to which each of the following causes you stress or uncertainty, if",
+      "any, prior to making a new tech purchase.",
+      "Extreme",
+      "stress",
+      "Moderate",
+      "stress",
+      "Minor",
+      "stress",
+      "No",
+      "stress",
+      "Don't",
+      "know",
+      "Ease",
+      "of",
+      "use",
+      "Relative value (e.g., do I really",
+      "need this tech)",
+      "Cost & Where to Buy It",
+      "Set-up & Support",
+      "Data",
+      "Privacy",
+      "Below are the aspects of tech purchasing again. Please place them in rank order, assigning a 1",
+      "to the aspect that creates the most stress, down to a 5 for the aspect that creates the least",
+      "stress for you.",
+      "Most",
+      "stressful",
+      "Least",
+      "Stressful",
+      "Don't",
+      "know",
+      "Ease",
+      "of",
+      "use",
+      "Relative value (e.g., do I really",
+      "need this tech)",
+      "Cost & Where to Buy It",
+      "Set-up & Support",
+      "Data",
+      "Privacy",
+      "Which",
+      "of",
+      "the",
+      "following",
+      "digital",
+      "safety",
+      "concerns",
+      "cause",
+      "you",
+      "to",
+      "hesitate",
+      "before",
+      "you",
+      "use",
+      "or",
+      "purchase",
+      "various",
+      "online"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "services or tech devices?",
+    "A": [
+      "Loss",
+      "of",
+      "privacy",
+      "Someone",
+      "stealing",
+      "my",
+      "identity",
+      "Someone",
+      "stealing",
+      "my",
+      "personal",
+      "information",
+      "or",
+      "passwords",
+      "Getting scammed (e.g., phishing email asking for money)",
+      "Unclear",
+      "policies",
+      "about",
+      "how",
+      "my",
+      "data",
+      "is",
+      "used",
+      "or",
+      "stored",
+      "Risk",
+      "of",
+      "viruses",
+      "or",
+      "malware",
+      "infecting",
+      "my",
+      "devices",
+      "Over-personalized or targeted ads that feel creepy",
+      "Other",
+      "None",
+      "of",
+      "the",
+      "above"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How interested would you be in a tech support service specifically designed for older adults?",
+    "A": [
+      "It would provide help in the way of troubleshooting, setup assistance, and personalized tech consultation that you"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "could use on behalf of an older adult (or they could use themselves/or you could use yourself)?",
+    "A": [
+      "Very",
+      "interested",
+      "Somewhat",
+      "interested",
+      "Not",
+      "at",
+      "all",
+      "interested",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What might you expect the cost of this service to be?",
+    "A": [
+      "Free",
+      "with",
+      "product",
+      "purchase",
+      "An extra cost, in addition to the product purchase",
+      "Free for anyone to use, like Google",
+      "Pay",
+      "each",
+      "time",
+      "you",
+      "use",
+      "it",
+      "Pay",
+      "as",
+      "a",
+      "monthly",
+      "subscription",
+      "Don't",
+      "know",
+      "Now, thinking about the past year (September 2023 - September 2024), which specific technology products did you"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "purchase for yourself and/or your household?",
+    "A": [
+      "Select all that apply.",
+      "Desktop",
+      "computer",
+      "Laptop",
+      "computer",
+      "or",
+      "Netbook",
+      "Smartphone (e.g. iPhone, Android)",
+      "E-reader (e.g. Kindle, Nook)",
+      "Tablet (e.g. iPad)",
+      "Wearable device (e.g. Fitbit, Garmin, Apple Watch",
+      "Home assistant (e.g. Amazon Echo/Alexa, or Google Home)",
+      "Smart home technology/security (e.g. Nest, Ring, SimpliSafe)",
+      "Gaming",
+      "system",
+      "Home audio equipment (e.g. Sonos)",
+      "Digital",
+      "camera",
+      "Smart",
+      "TV",
+      "Virtual reality (VR) device",
+      "Bluetooth headset/ear buds (e.g. AirPods)",
+      "Home health and safety device (e.g. emergency alert systems, medication manager)",
+      "GPS tracker specifically designed to monitor and share location (e.g. a necklace, bracelet, or watch)",
+      "Smart home cleaning device (e.g. Roomba, self- cleaning litter box)",
+      "Digital connected fitness equipment (e.g. Peloton, Mirror)",
+      "Smartphone accessories (e.g. charger, case)",
+      "Smart home appliance (e.g., refrigerator or washing machine with Wi-Fi)",
+      "Wi-Fi range extender/booster (e.g., Google Mesh, NETGEAR)",
+      "Smart home utility (e.g., smart thermostat, use management)",
+      "Smart home lighting (e.g., smart light bulb)",
+      "Other",
+      "No",
+      "tech",
+      "purchases",
+      "made",
+      "in",
+      "the",
+      "past",
+      "year",
+      "And thinking about all of the different tech items you purchased in the past 12 months (September 2023 - September"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "2024), approximately, how much did you spend in total?",
+    "A": [
+      "$1-100",
+      "$101-200",
+      "$201-300",
+      "$301-400",
+      "$401-500",
+      "$501-600",
+      "$601-700",
+      "$701-800",
+      "$801-900",
+      "$901-1000",
+      "$1001-1100",
+      "$1101-1500",
+      "$1501-2000",
+      "$2001-3000",
+      "$3001+",
+      "Is there a tech product you would have liked to purchase in the past year, but decided not to, because of the"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "financial pressures or inflation?",
+    "A": [
+      "Desktop",
+      "computer",
+      "Laptop",
+      "computer",
+      "or",
+      "Netbook",
+      "Smartphone (e.g., iPhone, Android)",
+      "E-reader (e.g., Kindle, Nook)",
+      "Tablet (e.g., iPad)",
+      "Samsung Galaxy Watch)",
+      "Home)",
+      "SimpliSafe)",
+      "Gaming",
+      "system",
+      "Home audio equipment (e.g., Sonos)",
+      "Digital",
+      "camera",
+      "Smart",
+      "TV",
+      "Virtual reality (VR) device",
+      "Bluetooth headset/ear buds (e.g., AirPods)",
+      "systems, medication manager)",
+      "location (e.g., a necklace, bracelet, or watch)",
+      "cleaning litter box)",
+      "Mirror)",
+      "Smartphone accessories (e.g., charger, case)",
+      "machine with Wi-Fi)",
+      "NETGEAR)",
+      "management)",
+      "Smart home lighting (e.g., smart light bulb)",
+      "Other",
+      "None",
+      "Earlier, you mentioned you have/own a smartphone. Please indicate approximately how long ago it was purchased.",
+      "In",
+      "the",
+      "last",
+      "year",
+      "Just",
+      "over",
+      "a",
+      "year",
+      "ago",
+      "Two",
+      "years",
+      "ago",
+      "Three",
+      "years",
+      "ago",
+      "Four",
+      "years",
+      "ago",
+      "Five",
+      "or",
+      "more",
+      "years",
+      "ago",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which operating system does your smartphone use?",
+    "A": [
+      "Android",
+      "IOS",
+      "Microsoft",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What best describes your experience with generative AI?",
+    "A": [
+      "I",
+      "have",
+      "used",
+      "it",
+      "Familiar",
+      "and",
+      "would",
+      "like",
+      "to",
+      "use",
+      "it",
+      "Familiar",
+      "but",
+      "do",
+      "not",
+      "care",
+      "to",
+      "use",
+      "it",
+      "Heard",
+      "of",
+      "it",
+      "but",
+      "not",
+      "familiar",
+      "with",
+      "it",
+      "Don't",
+      "know",
+      "what",
+      "this",
+      "is",
+      "Don't",
+      "know",
+      "How excited are you about the potential benefits of generative AI in making your life easier and more enjoyable (e.g.,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "personalized recommendations, virtual health assistants)?",
+    "A": [
+      "Extremely",
+      "excited",
+      "Very",
+      "excited",
+      "Somewhat",
+      "excited",
+      "Not",
+      "too",
+      "excited",
+      "Not",
+      "at",
+      "all",
+      "excited",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How excited are you about the potential benefits of generative AI?",
+    "A": [
+      "Extremely",
+      "excited",
+      "Very",
+      "excited",
+      "Somewhat",
+      "excited",
+      "Not",
+      "too",
+      "excited",
+      "Not",
+      "at",
+      "all",
+      "excited",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How excited are you about the potential benefits of generative AI?",
+    "A": [
+      "Very",
+      "helpful",
+      "Somewhat",
+      "helpful",
+      "Not",
+      "sure",
+      "Not",
+      "very",
+      "helpful",
+      "Not",
+      "at",
+      "all",
+      "helpful",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How likely are you to use generative AI in the next 6 months to assist you in personal needs?",
+    "A": [
+      "Very",
+      "likely",
+      "Somewhat",
+      "likely",
+      "Not",
+      "sure",
+      "Somewhat",
+      "unlikely",
+      "Very",
+      "unlikely",
+      "Don't",
+      "know"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "In general, is your health ...?",
+    "A": [
+      "Excellent",
+      "Very",
+      "good",
+      "Good",
+      "Fair",
+      "Poor",
+      "Does any disability, handicap, or chronic disease keep you from participating fully in work, school, household, or"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "other activities?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Do you have any children under the age of 18 living in your household?",
+    "A": [
+      "Yes",
+      "No",
+      "Are you the parent or guardian of any children in the household ages 18 or older, or any at college who are still"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "dependent on you?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have any grandchildren, including step-grandchildren and/or adopted grandchildren?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Which of the following best describes the area of your primary residence?",
+    "A": [
+      "Urban",
+      "Suburban",
+      "Rural",
+      "Don't",
+      "know",
+      "Please select the type of Internet connection you have in your home.",
+      "Cable",
+      "Fiber",
+      "DSL",
+      "Satellite",
+      "or",
+      "fixed",
+      "wireless",
+      "Through",
+      "my",
+      "cellular",
+      "service",
+      "Other",
+      "Dial-up",
+      "I",
+      "do",
+      "not",
+      "have",
+      "an",
+      "Internet",
+      "connection",
+      "at",
+      "home",
+      "Not",
+      "sure"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How much, if at all, is the cost of monthly high-speed internet a problem for you?",
+    "A": [
+      "Major",
+      "problem",
+      "Minor",
+      "problem",
+      "Not",
+      "a",
+      "problem",
+      "Not",
+      "applicable",
+      "Don't",
+      "know",
+      "Please",
+      "select",
+      "your",
+      "Race",
+      "and",
+      "Ethnicity",
+      "White, non-Hispanic",
+      "Black, non-Hispanic",
+      "Other, non-Hispanic",
+      "Hispanic",
+      "2+, non-Hispanic",
+      "Asian, non-Hispanic"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your highest level of education?",
+    "A": [
+      "Less",
+      "than",
+      "HS",
+      "HS",
+      "graduate",
+      "Vocational/tech school/some college/ associates",
+      "Bachelor's",
+      "degree",
+      "Post grad study/professional degree"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your current marital status?",
+    "A": [
+      "Married",
+      "Widowed",
+      "Divorced",
+      "Separated",
+      "Never",
+      "married",
+      "Living",
+      "with",
+      "partner"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your current employment status?",
+    "A": [
+      "Working - as a paid employee",
+      "Working - self-employed",
+      "Not working - on temporary layoff from a job",
+      "Not working - looking for work",
+      "Not working - retired",
+      "Not working - disabled",
+      "Not working - other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your household income?",
+    "A": [
+      "Less than $5,000",
+      "$5,000 to $9,999",
+      "$10,000 to $14,999",
+      "$15,000 to $19,999",
+      "$20,000 to $24,999",
+      "$25,000 to $29,999",
+      "$30,000 to $34,999",
+      "$35,000 to $39,999",
+      "$40,000 to $49,999",
+      "$50,000 to $59,999",
+      "$60,000 to $74,999",
+      "$75,000 to $84,999",
+      "$85,000 to $99,999",
+      "$100,000 to $124,999",
+      "$125,000 to $149,999",
+      "$150,000 to $174,999",
+      "$175,000 to $199,999",
+      "$200,000 or more"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What state do you currently live in?",
+    "A": [
+      "Alaska",
+      "Alabama",
+      "Arkansas",
+      "Arizona",
+      "California",
+      "Colorado",
+      "Connecticut",
+      "District",
+      "of",
+      "Columbia",
+      "Delaware",
+      "Florida",
+      "Georgia",
+      "Hawaii",
+      "Iowa",
+      "Idaho",
+      "Illinois",
+      "Indiana",
+      "Kansas",
+      "Kentucky",
+      "Louisiana",
+      "Massachusetts",
+      "Maryland",
+      "Maine",
+      "Michigan",
+      "Minnesota",
+      "Missouri",
+      "Mississippi",
+      "Montana",
+      "North",
+      "Carolina",
+      "North",
+      "Dakota",
+      "Nebraska",
+      "New",
+      "Hampshire",
+      "New",
+      "Jersey",
+      "New",
+      "Mexico",
+      "Nevada",
+      "New",
+      "York",
+      "Ohio",
+      "Oklahoma",
+      "Oregon",
+      "Pennsylvania",
+      "Rhode",
+      "Island",
+      "South",
+      "Carolina",
+      "South",
+      "Dakota",
+      "Tennessee",
+      "Texas",
+      "Utah",
+      "Virginia",
+      "Vermont",
+      "Washington",
+      "Wisconsin",
+      "West",
+      "Virginia",
+      "Wyoming"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What region do you currently live in?",
+    "A": [
+      "Northeast",
+      "Midwest",
+      "South",
+      "West"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Of the regions listed below, which do you currently live in?",
+    "A": [
+      "New",
+      "England",
+      "Mid-Atlantic",
+      "East",
+      "North",
+      "Central",
+      "West",
+      "North",
+      "Central",
+      "South",
+      "Atlantic",
+      "East",
+      "South",
+      "Central",
+      "West",
+      "South",
+      "Central",
+      "Mountain",
+      "Pacific"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your household size (including children)?",
+    "A": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7+",
+      "The",
+      "SoLAr",
+      "Study",
+      "Main",
+      "Survey",
+      "Personal",
+      "and",
+      "Social",
+      "Support"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Are you married, separated, divorced, widowed, or never married?",
+    "A": [
+      "Never",
+      "married",
+      "Married",
+      "Divorced",
+      "Separated",
+      "Widowed",
+      "Don't",
+      "know",
+      "Refused"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What is your household total income from wage, pension, social security, and other sources?",
+    "A": []
+  },
+  {
+    "type": "open",
+    "Q": "What is your current age?",
+    "A": []
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have someone you can count on in an emergency?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your relationship with that person? (Select one or more)",
+    "A": [
+      "Spouse",
+      "or",
+      "partner",
+      "Child",
+      "Sibling",
+      "Parent",
+      "Friend",
+      "Neighbor",
+      "Home",
+      "aide",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How far is this person from you?",
+    "A": [
+      "Less than 30 minutes away",
+      "More than 30 minutes away, but in the same state",
+      "In",
+      "another",
+      "state"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "If you get sick or need assistance, is there someone you can count on to help you?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your relationship with that person? (Select one or more)",
+    "A": [
+      "Spouse",
+      "or",
+      "partner",
+      "Child",
+      "Sibling",
+      "Parent",
+      "Friend",
+      "Neighbor",
+      "Home",
+      "aide",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How far is this person from you?",
+    "A": [
+      "Less than 30 minutes away",
+      "More than 30 minutes away, but in the same state",
+      "In",
+      "another",
+      "state"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you regularly help someone with their chores or care for them when they get sick?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your relationship with that person? (Select one or more)",
+    "A": [
+      "Spouse",
+      "or",
+      "partner",
+      "Child",
+      "Sibling",
+      "Parent",
+      "Friend",
+      "Neighbor",
+      "Home",
+      "aide",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How far is this person from you?",
+    "A": [
+      "Less than 30 minutes away",
+      "More than 30 minutes away, but in the same state",
+      "In",
+      "another",
+      "state"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have someone to help you if you are confined to bed?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your relationship with that person? (Select one or more)",
+    "A": [
+      "Spouse",
+      "or",
+      "partner",
+      "Child",
+      "Sibling",
+      "Parent",
+      "Friend",
+      "Neighbor",
+      "Home",
+      "aide",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How far is this person from you?",
+    "A": [
+      "Less than 30 minutes away",
+      "More than 30 minutes away, but in the same state",
+      "In",
+      "another",
+      "state"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have someone to take you to the doctor if you need it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your relationship with that person? (Select one or more)",
+    "A": [
+      "Spouse",
+      "or",
+      "partner",
+      "Child",
+      "Sibling",
+      "Parent",
+      "Friend",
+      "Neighbor",
+      "Home",
+      "aide",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How far is this person from you?",
+    "A": [
+      "Less than 30 minutes away",
+      "More than 30 minutes away, but in the same state",
+      "In",
+      "another",
+      "state"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have someone to help with your daily chores if you are sick?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your relationship with that person? (Select one or more)",
+    "A": [
+      "Spouse",
+      "or",
+      "partner",
+      "Child",
+      "Sibling",
+      "Parent",
+      "Friend",
+      "Neighbor",
+      "Home",
+      "aide",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How far is this person from you?",
+    "A": [
+      "Less than 30 minutes away",
+      "More than 30 minutes away, but in the same state",
+      "In",
+      "another",
+      "state"
+    ]
+  },
+  {
+    "type": "tf",
+    "Q": "Do you have someone to run errands if you need it?",
+    "A": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "What is your relationship with that person? (Select one or more)",
+    "A": [
+      "Spouse",
+      "or",
+      "partner",
+      "Child",
+      "Sibling",
+      "Parent",
+      "Friend",
+      "Neighbor",
+      "Home",
+      "aide",
+      "Other"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "How far is this person from you?",
+    "A": [
+      "Less than 30 minutes away",
+      "More than 30 minutes away, but in the same state",
+      "In",
+      "another",
+      "state",
+      "Sometimes it's helpful for our study team to have the name of a trusted contact-someone you give us permission to",
+      "reach out to only if we are unable to reach you directly (for example, if your phone number changes or you don't",
+      "respond to messages). Please answer the following about your trusted contact:"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What is the name of your trusted contact?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "What is their relationship to you?",
+    "A": [
+      "Spouse",
+      "or",
+      "partner",
+      "Child",
+      "Sibling",
+      "Parent",
+      "Friend",
+      "Neighbor",
+      "Home",
+      "aide",
+      "Other"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "What is their primary phone number?",
+    "A": []
+  },
+  {
+    "type": "open",
+    "Q": "What is their email address?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "What is their preferred way for us to contact them?",
+    "A": [
+      "Phone",
+      "call",
+      "Text",
+      "message",
+      "Email",
+      "Other",
+      "Personal",
+      "and",
+      "Social",
+      "Support"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "Is there anything else about your social engagement that you would like to share with us?",
+    "A": [
+      "What services and supports do you currently have to help meet your needs to stay connected with family, friends,"
+    ]
+  },
+  {
+    "type": "mcq",
+    "Q": "and other members of your community?",
+    "A": [
+      "How do you think technology could help you stay connected with family, friends, and other members of your"
+    ]
+  },
+  {
+    "type": "open",
+    "Q": "community?",
+    "A": []
+  },
+  {
+    "type": "mcq",
+    "Q": "Is there anything else you would like the study team to know?",
+    "A": [
+      "Thank you so much for completing the SoLAr Survey! Your time and input are truly valuable.",
+      "What",
+      "you",
+      "share",
+      "will",
+      "help",
+      "us",
+      "move",
+      "this",
+      "research",
+      "forward",
+      "and",
+      "guide",
+      "the",
+      "development",
+      "of",
+      "services and supports to improve the quality of life for older adults like you.",
+      "We will reach out to you again in about a year. In the meantime, please be on the lookout for",
+      "the quarterly e-newsletter and occasional e-greeting cards. We'd love to stay connected and",
+      "share updates with you.",
+      "Please continue to submit the survey."
+    ]
+  }
+]

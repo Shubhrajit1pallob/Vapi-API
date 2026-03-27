@@ -1,220 +1,186 @@
-# VAPI - JSON Data Processing API
+# VAPI Survey API
 
-A lightweight FastAPI-based REST API for receiving and storing JSON data from internal applications with simple API key authentication and MongoDB storage.
+FastAPI backend + Vite frontend for voice-based patient check-ins using Vapi.
 
-## Features
+This project currently includes:
 
-- ✅ Receive JSON data from internal applications
-- ✅ Secure endpoints with API key authentication
-- ✅ Store data in MongoDB
-- ✅ CRUD operations for stored data
-- ✅ Auto-generated API documentation
-- ✅ Simple integration for internal apps
+- MongoDB-backed APIs for storing question sets and submitted answers.
+- PostgreSQL-backed APIs for survey templates and Vapi call answer ingestion.
+- A frontend client using `@vapi-ai/web`.
 
 ## Project Structure
 
-```
+```text
 vapi_dev/
-├── app/
-│   ├── core/
-│   │   ├── config.py         # Configuration settings
-│   │   ├── database.py       # MongoDB connection
-│   │   └── security.py       # API key validation
-│   ├── models/
-│   │   └── schemas.py        # Pydantic models
-│   ├── routes/
-│   │   ├── health.py         # Health check endpoints
-│   │   └── data.py           # Data management endpoints
-│   └── __init__.py
-├── main.py                    # Application entry point
-├── requirements.txt           # Python dependencies
-├── .env.example               # Environment variables template
-├── .gitignore                 # Git ignore rules
-└── README.md                  # This file
+├── backend/
+│   ├── main.py
+│   ├── requirements.txt
+│   └── app/
+│       ├── core/
+│       │   ├── config.py
+│       │   ├── database.py
+│       │   ├── pg_database.py
+│       │   └── security.py
+│       ├── models/
+│       │   ├── mongoDB_schemas.py
+│       │   └── sql_models.py
+│       └── routes/
+│           ├── health.py
+│           ├── data.py
+│           └── vapi.py
+├── frontend/
+│   ├── index.html
+│   ├── main.js
+│   ├── style.css
+│   ├── package.json
+│   └── vite.config.js
+├── Terraform/
+└── README.md
 ```
 
-## Installation
+## Prerequisites
 
-### Prerequisites
-- Python 3.9+
-- MongoDB (local or remote)
+- Python 3.10+
+- Node.js 18+
+- PostgreSQL 14+
+- MongoDB 6+ (required for `/api/questions` and `/api/answers` routes)
 
-### Setup
+## Backend Setup
 
-1. Clone the repository and navigate to the project:
+1. Create and activate a virtual environment:
+
 ```bash
 cd vapi_dev
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
-2. Create a virtual environment:
+2. Install backend dependencies:
+
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r backend/requirements.txt
 ```
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+3. Create a `.env` file in the project root (`vapi_dev/.env`) and configure values:
 
-4. Create `.env` file from the template:
-```bash
-cp .env.example .env
-```
-
-5. Update `.env` with your configuration:
-```
+```env
+# MongoDB
 MONGODB_URL=mongodb://localhost:27017
 DATABASE_NAME=vapi_db
-API_KEY=your-secure-api-key-here
+
+# PostgreSQL
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/vapi_db
+
+# API security
+API_KEY=change-this-in-production
+
+# Vapi
+VAPI_API_KEY=
+VAPI_ASSISTANT_ID=
+VAPI_PHONE_NUMBER_ID=
+VAPI_SERVER_URL=
 ```
 
-## Running the Application
+4. Run the backend:
 
-Start the development server:
 ```bash
-python main.py
+python -m backend.main
 ```
 
-The API will be available at `http://localhost:8000`
+Backend runs on `http://localhost:8000` by default.
 
-### API Documentation
+## Frontend Setup
+
+1. Install frontend dependencies:
+
+```bash
+cd frontend
+npm install
+```
+
+2. Run frontend dev server:
+
+```bash
+npm run dev
+```
+
+Vite runs on `http://localhost:3000` by default.
+
+## API Docs
+
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
 
 ## API Endpoints
 
-### Health Check
-- `GET /` - Root endpoint
-- `GET /health` - Health check
+### Health
 
-### Data Management (Requires API Key)
+- `GET /` - basic service metadata
+- `GET /health` - health check
 
-All data endpoints require the `X-API-Key` header with your configured API key.
+### Questions and Answers (MongoDB + API key)
 
-**Store JSON Data**
-```bash
-POST /api/data
-Header: X-API-Key: your-api-key
-```
+All routes below require `X-API-Key` header.
 
-Request body:
-```json
-{
-  "data": {"key": "value", "nested": {"field": "data"}},
-  "metadata": {"source": "external-app", "timestamp": "2024-03-26"}
-}
-```
+- `POST /api/questions` - store parsed question list
+- `GET /api/questions?limit=10&skip=0` - list question documents
+- `GET /api/questions/{question_id}` - get one question document
+- `DELETE /api/questions/{question_id}` - delete question document
+- `POST /api/answers` - store a session's answers
+- `GET /api/answers?limit=10&skip=0` - list answers
+- `GET /api/answers/{answer_id}` - get one answer document
+- `DELETE /api/answers/{answer_id}` - delete answer document
 
-Response:
-```json
-{
-  "success": true,
-  "message": "Data stored successfully",
-  "id": "507f1f77bcf86cd799439011"
-}
-```
+### Vapi Integration (PostgreSQL)
 
-**Retrieve All Data**
-```bash
-GET /api/data?limit=10&skip=0
-Header: X-API-Key: your-api-key
-```
+- `GET /start-session/{patient_id}`
+  - returns Vapi launch config (`vapiApiKey`, `assistantId`, `assistantOverrides`) generated from latest `survey_templates` record.
+- `POST /vapi-webhook`
+  - receives Vapi tool-call payloads and records `record_answer` outputs into `patient_responses`.
 
-Query parameters:
-- `limit`: Number of records to return (default: 10)
-- `skip`: Number of records to skip (default: 0)
+## Quick cURL Examples
 
-**Retrieve Specific Data**
-```bash
-GET /api/data/{data_id}
-Header: X-API-Key: your-api-key
-```
+### Health check
 
-**Delete Data**
-```bash
-DELETE /api/data/{data_id}
-Header: X-API-Key: your-api-key
-```
-
-## Usage Examples
-
-### 1. Store Data
-```bash
-curl -X POST "http://localhost:8000/api/data" \
-  -H "Content-Type: application/json" \
-  -H "X-API-Key: your-api-key" \
-  -d '{
-    "data": {"user": "john", "action": "login", "timestamp": "2024-03-26T10:30:00"},
-    "metadata": {"source": "web-app", "version": "1.0"}
-  }'
-```
-
-### 2. Retrieve All Data
-```bash
-curl -X GET "http://localhost:8000/api/data?limit=10&skip=0" \
-  -H "X-API-Key: your-api-key"
-```
-
-### 3. Retrieve Specific Data
-```bash
-curl -X GET "http://localhost:8000/api/data/507f1f77bcf86cd799439011" \
-  -H "X-API-Key: your-api-key"
-```
-
-### 4. Delete Data
-```bash
-curl -X DELETE "http://localhost:8000/api/data/507f1f77bcf86cd799439011" \
-  -H "X-API-Key: your-api-key"
-```
-
-## Environment Variables
-
-| Variable | Default | Description |
-|----------|---------|-------------|
-| MONGODB_URL | mongodb://localhost:27017 | MongoDB connection string |
-| DATABASE_NAME | vapi_db | Database name |
-| API_KEY | your-api-key-here-change-in-production | API key for authentication |
-
-## Security Notes
-
-⚠️ **Important for Production:**
-- Change `API_KEY` to a strong random string
-- Update `CORS` allowed origins to specific domains
-- Use environment variables for sensitive data
-- Enable HTTPS
-- Implement rate limiting
-- Use connection pooling for MongoDB
-- Store API keys securely (use secrets management system)
-
-## Development
-
-### Run Health Check
 ```bash
 curl http://localhost:8000/health
 ```
 
-### View Interactive Docs
-Visit `http://localhost:8000/docs` for Swagger UI
+### Create questions
 
-## Troubleshooting
+```bash
+curl -X POST "http://localhost:8000/api/questions" \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: change-this-in-production" \
+  -d '{
+    "questions": [
+      {"type": "mcq", "Q": "How are you today?", "A": ["Good", "Okay", "Not great"]},
+      {"type": "open", "Q": "Anything else to share?", "A": []}
+    ],
+    "metadata": {"source": "intake-form"}
+  }'
+```
 
-### MongoDB Connection Error
-- Ensure MongoDB is running: `mongod`
-- Check `MONGODB_URL` in `.env`
+### Get Vapi session config
 
-### API Key Authentication Fails
-- Verify `API_KEY` in `.env` matches the header value
-- Header must be exactly `X-API-Key`
+```bash
+curl "http://localhost:8000/start-session/patient-123"
+```
 
-### Import Errors
-- Make sure virtual environment is activated
-- Reinstall dependencies: `pip install -r requirements.txt`
+## Notes and Known Gaps
+
+- In `backend/main.py`, MongoDB connect/disconnect calls are currently commented out. If you use `/api/questions` or `/api/answers`, ensure MongoDB is initialized in startup (or re-enable those calls).
+- Frontend currently proxies `/get-vapi-config`, while backend exposes `/start-session/{patient_id}`. Align either the frontend fetch path or backend route naming before full end-to-end use.
+- CORS currently allows `*`; lock this down for production.
+
+## Production Hardening Checklist
+
+- Use strong secrets for `API_KEY` and Vapi credentials.
+- Restrict CORS origins and methods.
+- Put backend behind HTTPS.
+- Add request validation/rate-limiting for public-facing endpoints.
+- Add logging/monitoring around webhook handling.
 
 ## License
 
-Specify your license here
-
-## Support
-
-For issues or questions, contact your team development lead.
+Add your license information here.
