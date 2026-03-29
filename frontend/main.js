@@ -2,7 +2,7 @@ import Vapi from "@vapi-ai/web";
 
 // ── Config ──────────────────────────────────────────────────────────
 const API_BASE = import.meta.env.VITE_API_BASE || "";
-const PATIENT_ID = new URLSearchParams(window.location.search).get("patientId") || "123";
+const INITIAL_PATIENT_ID = new URLSearchParams(window.location.search).get("patientId") || "";
 
 // ── DOM refs ────────────────────────────────────────────────────────
 const btnStart = document.getElementById("btn-start");
@@ -14,6 +14,7 @@ const transcript = document.getElementById("transcript");
 const errorBanner = document.getElementById("error-banner");
 const errorMessage = document.getElementById("error-message");
 const errorDismiss = document.getElementById("error-dismiss");
+const patientIdInput = document.getElementById("patient-id");
 
 // ── State ───────────────────────────────────────────────────────────
 let vapi = null;
@@ -38,17 +39,19 @@ function setCallActive(active) {
     btnStart.classList.add("hidden");
     btnEnd.classList.remove("hidden");
     statusArea.classList.remove("hidden");
+    patientIdInput.disabled = true;
   } else {
     btnStart.classList.remove("hidden");
     btnEnd.classList.add("hidden");
     statusArea.classList.add("hidden");
     transcript.textContent = "";
+    patientIdInput.disabled = false;
   }
 }
 
 // ── Fetch config from Python backend ────────────────────────────────
-async function fetchVapiConfig() {
-  const url = `${API_BASE}/get-vapi-config?patientId=${encodeURIComponent(PATIENT_ID)}`;
+async function fetchVapiConfig(patientId) {
+  const url = `${API_BASE}/start-session/${encodeURIComponent(patientId)}`;
 
   const res = await fetch(url);
   if (!res.ok) {
@@ -63,6 +66,19 @@ async function fetchVapiConfig() {
 // ── Start call ──────────────────────────────────────────────────────
 async function startCall() {
   hideError();
+
+  const patientId = patientIdInput.value.trim();
+  if (!patientId) {
+    showError("Please enter a Patient ID before starting the survey.");
+    patientIdInput.focus();
+    return;
+  }
+
+  // Keep the current patient ID in the URL so refresh/share preserves context.
+  const currentUrl = new URL(window.location.href);
+  currentUrl.searchParams.set("patientId", patientId);
+  window.history.replaceState(null, "", currentUrl);
+
   btnStart.disabled = true;
   btnStart.textContent = "Loading…";
 
@@ -83,7 +99,7 @@ async function startCall() {
 
   let config;
   try {
-    config = await fetchVapiConfig();
+    config = await fetchVapiConfig(patientId);
   } catch (err) {
     showError(
       `Could not reach the server. Please check your connection and try again. (${err.message})`
@@ -110,7 +126,7 @@ async function startCall() {
       startOptions.assistant = {
         model: config.assistantOverrides.model,
         firstMessage:
-          "Hello! I am your well-being assistant. Let's begin your check-in. Are you ready?",
+          "Hello! I am your well-being assistant. Let's begin your survey. Are you ready?",
         voice: {
           provider: "11labs",
           voiceId: "21m00Tcm4TlvDq8ikWAM", // "Rachel" – calm & clear
@@ -184,6 +200,7 @@ function endCall() {
 }
 
 // ── Event listeners ─────────────────────────────────────────────────
+patientIdInput.value = INITIAL_PATIENT_ID;
 btnStart.addEventListener("click", startCall);
 btnEnd.addEventListener("click", endCall);
 errorDismiss.addEventListener("click", hideError);

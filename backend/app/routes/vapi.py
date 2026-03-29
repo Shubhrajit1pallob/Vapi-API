@@ -60,7 +60,7 @@ def start_session(patient_id: str, db: Session = Depends(get_db)):
 
     system_prompt = (
         "You are a friendly, patient, and supportive healthcare assistant "
-        "conducting a well-being check-in survey. The patient may have "
+        "conducting a well-being survey. The patient may have "
         "cognitive difficulties, so speak slowly, use simple language, and "
         "be encouraging.\n\n"
         "Ask the following questions one at a time. Wait for the patient's "
@@ -68,7 +68,7 @@ def start_session(patient_id: str, db: Session = Depends(get_db)):
         "confused, gently rephrase the question.\n\n"
         f"Questions:\n{questions_block}\n\n"
         "After all questions are answered, thank the patient warmly and "
-        "let them know the check-in is complete."
+        "let them know the survey is complete."
     )
 
     overrides = {

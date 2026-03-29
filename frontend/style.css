@@ -67,6 +67,42 @@ body {
   line-height: 1.6;
 }
 
+/* ===== Patient ID ===== */
+.patient-id-section {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.patient-id-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--clr-text);
+}
+
+.patient-id-input {
+  width: 100%;
+  border: 1px solid var(--clr-border);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  color: var(--clr-text);
+  background: #fff;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.patient-id-input:focus-visible {
+  outline: none;
+  border-color: var(--clr-primary);
+  box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.2);
+}
+
+.patient-id-input:disabled {
+  background: #f7f9fb;
+  color: var(--clr-text-muted);
+}
+
 /* ===== Buttons ===== */
 .btn {
   display: inline-flex;
@@ -116,7 +152,7 @@ body {
   font-size: 1rem;
   padding: 0.4rem 0.8rem;
   min-width: auto;
-  min-height: auto;
+  min-height: 0;
   border-radius: 8px;
   background: transparent;
   color: var(--clr-text-muted);

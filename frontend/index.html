@@ -9,7 +9,7 @@
   <body>
     <main id="app" class="container">
       <!-- Header -->
-      <h1 class="title">Well-Being Check-In</h1>
+      <h1 class="title">Survey</h1>
 
       <!-- Status indicator (hidden until call starts) -->
       <div id="status-area" class="status-area hidden">
@@ -27,18 +27,32 @@
         <button id="error-dismiss" class="btn btn-small" aria-label="Dismiss error">✕</button>
       </div>
 
+      <!-- Patient ID input -->
+      <div class="patient-id-section">
+        <label for="patient-id" class="patient-id-label">Patient ID</label>
+        <input
+          id="patient-id"
+          class="patient-id-input"
+          type="text"
+          name="patient-id"
+          placeholder="Enter patient ID"
+          autocomplete="off"
+          required
+        />
+      </div>
+
       <!-- Action buttons -->
       <div class="actions">
         <button id="btn-start" class="btn btn-primary">
-          Start Check-In
+          Start Survey
         </button>
         <button id="btn-end" class="btn btn-danger hidden">
-          End Call
+          End Survey
         </button>
       </div>
 
       <p class="helper-text">
-        Press the button and speak naturally — the assistant will guide you.
+        Press the button and speak naturally — the assistant will guide you through the survey.
       </p>
     </main>
 

@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     port: 3000,
     proxy: {
-      "/get-vapi-config": "http://localhost:8000",
+      "/start-session": "http://localhost:8000",
     },
   },
 });
