@@ -76,7 +76,7 @@ def start_session(patient_id: str, db: Session = Depends(get_db)):
         "assistantOverrides": {
             "model": {
                 "provider": "openai",
-                "model": "gpt-4o",
+                "model": "gpt-5.2",
                 "systemMessage": system_prompt,
             },
             "metadata": {

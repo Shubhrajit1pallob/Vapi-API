@@ -49,6 +49,8 @@ function setCallActive(active) {
   }
 }
 
+
+
 // ── Fetch config from Python backend ────────────────────────────────
 async function fetchVapiConfig(patientId) {
   const url = `${API_BASE}/start-session/${encodeURIComponent(patientId)}`;
@@ -62,6 +64,8 @@ async function fetchVapiConfig(patientId) {
   const json = await res.json();
   return json.data; // { vapiApiKey, assistantId, assistantOverrides }
 }
+
+
 
 // ── Start call ──────────────────────────────────────────────────────
 async function startCall() {
