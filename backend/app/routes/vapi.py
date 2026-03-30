@@ -1,12 +1,79 @@
 from fastapi import APIRouter, HTTPException, Depends, status, Request
 from sqlalchemy.orm import Session
 from typing import Any, cast
+from pydantic import BaseModel, Field
 
 from backend.app.core.config import settings
 from backend.app.core.pg_database import get_db
 from backend.app.models.sql_models import SurveyTemplate, PatientResponse
 
 router = APIRouter(tags=["vapi"])
+
+
+class SurveyQuestionIn(BaseModel):
+    """Input schema for one survey question."""
+
+    id: str | None = Field(default=None, description="Stable question id, e.g. q1")
+    type: str = Field(default="open", description="mcq | tf | open")
+    Q: str = Field(..., min_length=1, description="Question text")
+    A: list[Any] = Field(default_factory=list, description="Choices for mcq/tf; empty for open")
+
+
+class SurveyTemplateCreatePayload(BaseModel):
+    """Input schema for creating a new survey template in PostgreSQL."""
+
+    questions: list[SurveyQuestionIn] = Field(..., min_length=1)
+    version: int | None = Field(default=None, ge=1, description="Optional explicit template version")
+
+
+# ---------------------------------------------------------------------------
+# POST /survey-templates
+#   Stores a new SurveyTemplate row in PostgreSQL from JSON payload.
+# ---------------------------------------------------------------------------
+@router.post("/survey-templates", status_code=status.HTTP_201_CREATED)
+def create_survey_template(payload: SurveyTemplateCreatePayload, db: Session = Depends(get_db)):
+    """Create and store a survey template in PostgreSQL."""
+
+    latest = (
+        db.query(SurveyTemplate)
+        .order_by(SurveyTemplate.version.desc())
+        .first()
+    )
+    next_version = (latest.version + 1) if latest else 1
+    template_version = payload.version or next_version
+
+    if payload.version is not None:
+        existing = (
+            db.query(SurveyTemplate)
+            .filter(SurveyTemplate.version == payload.version)
+            .first()
+        )
+        if existing:
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT,
+                detail=f"Survey template version {payload.version} already exists.",
+            )
+
+    questions_payload = [q.model_dump(exclude_none=True) for q in payload.questions]
+
+    template = SurveyTemplate(
+        version=template_version,
+        questions=questions_payload,
+    )
+    db.add(template)
+    db.commit()
+    db.refresh(template)
+
+    return {
+        "success": True,
+        "message": "Survey template stored successfully.",
+        "data": {
+            "id": str(template.id),
+            "version": template.version,
+            "total_questions": len(template.questions),
+            "created_at": template.created_at.isoformat(),
+        },
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -110,7 +177,7 @@ async def vapi_webhook(request: Request, db: Session = Depends(get_db)):
 
     # We only care about tool-calls requests
     if msg_type != "tool-calls":
-        return {"success": True, "message": "Ignored – not a tool-calls message."}
+        return {"success": True, "message": "Ignored - not a tool-calls message."}
 
     tool_calls = message.get("toolCallList", [])
     results = []
