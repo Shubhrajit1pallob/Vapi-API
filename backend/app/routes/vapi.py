@@ -1,5 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends, status, Request
 from sqlalchemy.orm import Session
+from sqlalchemy.orm.attributes import flag_modified
 from typing import Any, cast
 from pydantic import BaseModel, Field
 
@@ -126,16 +127,23 @@ def start_session(patient_id: str, db: Session = Depends(get_db)):
     questions_block = "\n".join(question_lines)
 
     system_prompt = (
-        "You are a friendly, patient, and supportive healthcare assistant "
-        "conducting a well-being survey. The patient may have "
-        "cognitive difficulties, so speak slowly, use simple language, and "
-        "be encouraging.\n\n"
-        "Ask the following questions one at a time. Wait for the patient's "
-        "answer before moving to the next question. If the patient seems "
-        "confused, gently rephrase the question.\n\n"
-        f"Questions:\n{questions_block}\n\n"
-        "After all questions are answered, thank the patient warmly and "
-        "let them know the survey is complete."
+        "You are Cameron, a friendly healthcare voice assistant conducting a survey. "
+    "Speak slowly and be patient.\n\n"
+    
+    "## YOUR PROTOCOL:\n"
+    "1. Ask the questions provided below one by one.\n"
+    "2. IMPORTANT: After the patient provides an answer to a question, you MUST "
+    "immediately call the 'record_answer' tool. Provide the 'question_id' and "
+    "the 'patient_answer' in the tool call.\n"
+    "3. Only after the tool has been called should you move to the next question.\n"
+    "4. If the patient is confused, gently rephrase the question.\n\n"
+    
+    f"## QUESTIONS:\n{questions_block}\n\n"
+    
+    "## CALL ENDING:\n"
+    "After the last question is recorded, ask the patient: 'Before we go, "
+    "do you have any feedback on how this call went for you today?' "
+    "Wait for their answer, then thank them and end the call."
     )
 
     overrides = {
@@ -179,7 +187,8 @@ async def vapi_webhook(request: Request, db: Session = Depends(get_db)):
     if msg_type != "tool-calls":
         return {"success": True, "message": "Ignored - not a tool-calls message."}
 
-    tool_calls = message.get("toolCallList", [])
+    # tool_calls = message.get("toolCallList", [])
+    tool_calls = message.get("toolCalls") or message.get("toolCallList") or []
     results = []
 
     for tool_call in tool_calls:
@@ -222,7 +231,15 @@ async def vapi_webhook(request: Request, db: Session = Depends(get_db)):
 
         if response_row:
             # Append to the existing JSONB array
-            response_row.answers = response_row.answers + [new_answer]
+            if response_row.answers is None:
+                response_row.answers = []
+            
+            # Create a new list to ensure the reference changes
+            response_row.answers = list(response_row.answers) + [new_answer]
+            
+            # This tells SQLAlchemy "Hey, I actually changed this JSON!"
+            flag_modified(response_row, "answers")
+            # response_row.answers = response_row.answers + [new_answer]
         else:
             response_row = PatientResponse(
                 patient_id=patient_id,
