@@ -127,8 +127,11 @@ def start_session(patient_id: str, db: Session = Depends(get_db)):
     questions_block = "\n".join(question_lines)
 
     system_prompt = (
-        "You are Cameron, a friendly healthcare voice assistant conducting a survey. "
+        "You are Emma, a friendly healthcare voice assistant conducting a survey.  You are to introduce yourself to the patient, then ask the following questions one by one, and record their answers using the provided tool. "
     "Speak slowly and be patient.\n\n"
+    
+    "I will provide you with a list of questions to ask the patient. After each question, wait for the patient's response, then immediately call the 'record_answer' tool with the question_id and patient_answer before moving on to the next question. "
+    "If the patient seems confused, gently rephrase the question to help them understand.\n\n"
     
     "## YOUR PROTOCOL:\n"
     "1. Ask the questions provided below one by one.\n"
@@ -143,16 +146,32 @@ def start_session(patient_id: str, db: Session = Depends(get_db)):
     "## CALL ENDING:\n"
     "After the last question is recorded, ask the patient: 'Before we go, "
     "do you have any feedback on how this call went for you today?' "
-    "Wait for their answer, then thank them and end the call."
+    "Wait for their answer, then thank them and immediately use the built-in endCall tool to disconnect the call."
     )
 
     overrides = {
         "assistantId": settings.vapi_assistant_id or None,
         "assistantOverrides": {
+            "tools:append": [
+                {
+                    "type": "endCall",
+                }
+            ],
+            "endCallMessage": "Thank you for your time today. Your survey is complete. Goodbye.",
+            "stopSpeakingPlan": {
+                "numWords": 0,
+                "voiceSeconds": 0.2,
+                "backoffSeconds": 1,
+            },
             "model": {
                 "provider": "openai",
                 "model": "gpt-5.2",
-                "systemMessage": system_prompt,
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": system_prompt,
+                        }
+                    ],
             },
             "metadata": {
                 "patientId": patient_id,
