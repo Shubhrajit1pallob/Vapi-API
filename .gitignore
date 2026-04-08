@@ -22,3 +22,4 @@ build/
 *.swo
 *~
 .mypy_cache/
+node_modules/

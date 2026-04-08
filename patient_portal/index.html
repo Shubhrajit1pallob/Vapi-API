@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoLAr Study — Check-In</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:       #2563eb;
+      --blue-dark:  #1d4ed8;
+      --blue-light: #eff6ff;
+      --red:        #dc2626;
+      --red-light:  #fef2f2;
+      --green:      #16a34a;
+      --green-light:#f0fdf4;
+      --slate-50:   #f8fafc;
+      --slate-100:  #f1f5f9;
+      --slate-200:  #e2e8f0;
+      --slate-400:  #94a3b8;
+      --slate-500:  #64748b;
+      --slate-700:  #374151;
+      --slate-900:  #0f172a;
+      --radius:     10px;
+    }
+
+    body {
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--slate-50);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    /* ── Card ─────────────────────────────────────── */
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 8px 32px rgba(0,0,0,.08);
+      padding: 48px 40px;
+      width: 100%;
+      max-width: 440px;
+    }
+
+    /* ── Brand ────────────────────────────────────── */
+    .brand {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .brand-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 52px;
+      height: 52px;
+      background: var(--blue-light);
+      border-radius: 14px;
+      margin-bottom: 16px;
+    }
+
+    .brand-icon svg {
+      width: 26px;
+      height: 26px;
+      stroke: var(--blue);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .brand h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--slate-900);
+      letter-spacing: -0.3px;
+    }
+
+    .brand p {
+      font-size: 14px;
+      color: var(--slate-500);
+      margin-top: 4px;
+    }
+
+    /* ── Form ─────────────────────────────────────── */
+    .field { margin-bottom: 16px; }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--slate-700);
+      margin-bottom: 6px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1.5px solid var(--slate-200);
+      border-radius: var(--radius);
+      font-size: 15px;
+      font-family: inherit;
+      color: var(--slate-900);
+      background: #fff;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    input::placeholder { color: var(--slate-400); }
+
+    input:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(37,99,235,.12);
+    }
+
+    /* ── Buttons ──────────────────────────────────── */
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px 20px;
+      border: none;
+      border-radius: var(--radius);
+      font-size: 15px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background 0.15s, opacity 0.15s, transform 0.1s;
+      margin-top: 8px;
+    }
+
+    .btn:active:not(:disabled) { transform: scale(0.985); }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .btn-primary { background: var(--blue); color: #fff; }
+    .btn-primary:hover:not(:disabled) { background: var(--blue-dark); }
+
+    .btn-outline {
+      background: #fff;
+      color: var(--red);
+      border: 1.5px solid #fecaca;
+    }
+    .btn-outline:hover:not(:disabled) { background: var(--red-light); }
+
+    /* ── Error ────────────────────────────────────── */
+    .error-box {
+      background: var(--red-light);
+      border: 1px solid #fecaca;
+      color: var(--red);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+      font-size: 13.5px;
+      margin-top: 12px;
+      display: none;
+      line-height: 1.5;
+    }
+
+    /* ── Divider ──────────────────────────────────── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--slate-200);
+      margin: 28px 0;
+    }
+
+    /* ── Call screen ──────────────────────────────── */
+    .greeting {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .greeting .patient-name {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--slate-900);
+      letter-spacing: -0.3px;
+    }
+
+    .greeting .patient-sub {
+      font-size: 14px;
+      color: var(--slate-500);
+      margin-top: 4px;
+    }
+
+    /* ── Status pill ──────────────────────────────── */
+    .status-pill {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: var(--slate-100);
+      border-radius: 999px;
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--slate-500);
+      margin-bottom: 20px;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--slate-400);
+      flex-shrink: 0;
+    }
+
+    .status-dot.connecting { background: #f59e0b; animation: pulse 1s infinite; }
+    .status-dot.active     { background: #22c55e; animation: pulse 0.8s infinite; }
+    .status-dot.speaking   { background: var(--blue); animation: pulse 0.6s infinite; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    /* ── Transcript ───────────────────────────────── */
+    .transcript-wrap {
+      background: var(--slate-50);
+      border: 1px solid var(--slate-200);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      min-height: 72px;
+      max-height: 140px;
+      overflow-y: auto;
+      margin-bottom: 20px;
+    }
+
+    .transcript-wrap p {
+      font-size: 14px;
+      color: var(--slate-500);
+      line-height: 1.6;
+    }
+
+    #transcript {
+      font-size: 14px;
+      color: var(--slate-700);
+      line-height: 1.6;
+    }
+
+    /* ── Done state ───────────────────────────────── */
+    .done-box {
+      background: var(--green-light);
+      border: 1px solid #bbf7d0;
+      border-radius: var(--radius);
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+      display: none;
+    }
+
+    .done-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: #dcfce7;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .done-icon svg {
+      width: 20px;
+      height: 20px;
+      stroke: var(--green);
+      fill: none;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .done-box .done-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #166534;
+    }
+
+    .done-box .done-sub {
+      font-size: 13px;
+      color: #4ade80;
+      margin-top: 3px;
+    }
+
+    /* ── Views ────────────────────────────────────── */
+    .view { display: none; }
+    .view.active { display: block; }
+  </style>
+</head>
+<body>
+
+<div class="card">
+
+  <!-- LOGIN -->
+  <div id="view-login" class="view active">
+    <div class="brand">
+      <div class="brand-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+        </svg>
+      </div>
+      <h1>SoLAr Study</h1>
+      <p>Sign in to begin your check-in session.</p>
+    </div>
+
+    <div class="field">
+      <label for="patient-id">Patient ID</label>
+      <input type="text" id="patient-id" placeholder="e.g. P-001" autocomplete="off" />
+    </div>
+
+    <div class="field">
+      <label for="pin">4-Digit PIN</label>
+      <input type="password" id="pin" placeholder="Enter your PIN" maxlength="4" inputmode="numeric" />
+    </div>
+
+    <div id="login-error" class="error-box"></div>
+
+    <button class="btn btn-primary" id="btn-login" style="margin-top:20px">Sign In</button>
+  </div>
+
+  <!-- CALL -->
+  <div id="view-call" class="view">
+    <div class="greeting">
+      <div class="patient-name" id="patient-name">Welcome</div>
+      <div class="patient-sub">Your voice check-in is ready when you are.</div>
+    </div>
+
+    <div class="status-pill" id="status-pill">
+      <span class="status-dot" id="status-dot"></span>
+      <span id="status-text">Ready</span>
+    </div>
+
+    <div class="transcript-wrap">
+      <div id="transcript">Press <strong>Start Check-In</strong> below. You will be asked to allow microphone access.</div>
+    </div>
+
+    <div class="done-box" id="done-box">
+      <div class="done-icon">
+        <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+      </div>
+      <div class="done-title">Check-in complete</div>
+      <div class="done-sub">Your responses have been recorded. Thank you.</div>
+    </div>
+
+    <div id="call-error" class="error-box"></div>
+
+    <button class="btn btn-primary" id="btn-start-call">Start Check-In</button>
+    <button class="btn btn-outline"  id="btn-end-call" style="display:none">End Call</button>
+  </div>
+
+</div>
+
+<script src="/portal-static/vapi.js"></script>
+<script>
+  let vapi = null;
+  let patientId = "";
+
+  const $ = (id) => document.getElementById(id);
+
+  function showView(name) {
+    document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
+    $(`view-${name}`).classList.add("active");
+  }
+
+  function setStatus(state, label) {
+    $("status-dot").className = `status-dot ${state}`;
+    $("status-text").textContent = label;
+  }
+
+  function showError(id, msg) {
+    const el = $(id);
+    el.textContent = msg;
+    el.style.display = "block";
+  }
+
+  function hideError(id) {
+    $(id).style.display = "none";
+  }
+
+  // ── Login ────────────────────────────────────────────────────────────
+  $("btn-login").addEventListener("click", async () => {
+    const pid = $("patient-id").value.trim();
+    const pin = $("pin").value.trim();
+    hideError("login-error");
+
+    if (!pid || !pin) {
+      showError("login-error", "Please enter your Patient ID and PIN.");
+      return;
+    }
+
+    $("btn-login").disabled = true;
+    $("btn-login").textContent = "Signing in...";
+
+    try {
+      const res = await fetch("/patient/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ patient_id: pid, pin }),
+      });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(body.detail || "Invalid Patient ID or PIN.");
+
+      patientId = body.patient.patient_id;
+      $("patient-name").textContent = `Hello, ${body.patient.name}`;
+      showView("call");
+    } catch (err) {
+      showError("login-error", err.message);
+    } finally {
+      $("btn-login").disabled = false;
+      $("btn-login").textContent = "Sign In";
+    }
+  });
+
+  $("pin").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") $("btn-login").click();
+  });
+
+  // ── Start call ───────────────────────────────────────────────────────
+  $("btn-start-call").addEventListener("click", async () => {
+    hideError("call-error");
+    $("done-box").style.display = "none";
+    $("btn-start-call").disabled = true;
+    $("btn-start-call").textContent = "Connecting...";
+
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      stream.getTracks().forEach(t => t.stop());
+    } catch {
+      showError("call-error", "Microphone access denied. Please allow microphone access in your browser settings and try again.");
+      $("btn-start-call").disabled = false;
+      $("btn-start-call").textContent = "Start Check-In";
+      return;
+    }
+
+    let config;
+    try {
+      const res = await fetch(`/start-session/${encodeURIComponent(patientId)}`);
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(body.detail || `Server error ${res.status}`);
+      config = body.data;
+    } catch (err) {
+      showError("call-error", `Could not load session: ${err.message}`);
+      $("btn-start-call").disabled = false;
+      $("btn-start-call").textContent = "Start Check-In";
+      return;
+    }
+
+    try {
+      vapi = new Vapi(config.vapiApiKey);
+      bindEvents(vapi);
+      setStatus("connecting", "Connecting...");
+
+      if (config.assistantId) {
+        await vapi.start(config.assistantId, config.assistantOverrides);
+      } else {
+        await vapi.start({
+          model: config.assistantOverrides.model,
+          firstMessage: "Hello, I'm Emma, your well-being assistant. I'm going to ask you a few quick questions today. Are you ready?",
+          metadata: config.assistantOverrides.metadata,
+          ...(config.assistantOverrides.serverUrl && { serverUrl: config.assistantOverrides.serverUrl }),
+        });
+      }
+
+      $("btn-start-call").style.display = "none";
+      $("btn-end-call").style.display = "block";
+    } catch (err) {
+      showError("call-error", `Failed to start call: ${err.message || err}`);
+      setStatus("", "Ready");
+      $("btn-start-call").disabled = false;
+      $("btn-start-call").textContent = "Start Check-In";
+    }
+  });
+
+  // ── End call ─────────────────────────────────────────────────────────
+  $("btn-end-call").addEventListener("click", () => {
+    if (vapi) vapi.stop();
+  });
+
+  // ── Vapi events ──────────────────────────────────────────────────────
+  function bindEvents(instance) {
+    instance.on("call-start", () => setStatus("active", "Connected — listening"));
+
+    instance.on("speech-start", () => setStatus("speaking", "Emma is speaking"));
+
+    instance.on("speech-end", () => setStatus("active", "Listening"));
+
+    instance.on("message", (msg) => {
+      if (msg.type === "transcript" && msg.transcript) {
+        $("transcript").textContent = msg.transcript;
+      }
+    });
+
+    instance.on("call-end", () => {
+      setStatus("", "Call ended");
+      $("btn-end-call").style.display = "none";
+      $("btn-start-call").style.display = "block";
+      $("btn-start-call").disabled = false;
+      $("btn-start-call").textContent = "Start New Check-In";
+      $("done-box").style.display = "block";
+      $("transcript").textContent = "";
+    });
+
+    instance.on("error", (err) => {
+      // Daily.co fires "ejected / Meeting has ended" as a normal call-end event — ignore it.
+      const errorMsg = err?.error?.errorMsg || err?.error?.message?.msg || "";
+      const errorType = err?.error?.message?.type || "";
+      if (errorType === "ejected" || errorMsg === "Meeting has ended") return;
+
+      console.error("[Vapi error]", err);
+      showError("call-error", `Voice error: ${err?.message || JSON.stringify(err)}`);
+      setStatus("", "Error");
+      $("btn-end-call").style.display = "none";
+      $("btn-start-call").style.display = "block";
+      $("btn-start-call").disabled = false;
+      $("btn-start-call").textContent = "Try Again";
+    });
+  }
+</script>
+</body>
+</html>

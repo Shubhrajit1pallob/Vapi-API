@@ -1,9 +1,9 @@
 fastapi
 uvicorn
-pymongo
 pydantic
 pydantic-settings
 python-multipart
 python-dotenv
 sqlalchemy
 psycopg2-binary
+supabase>=2.9.0
